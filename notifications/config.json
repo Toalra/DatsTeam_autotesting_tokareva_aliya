@@ -1,12 +1,12 @@
 {
   "base": {
     "logo": "",
-    "project": "Home work 14 - Telegram bot",
+    "project": "Home work 15 - Telegram bot",
     "environment": "TEST",
     "comment": "Thank you for watching",
-    "reportLink": "https://jenkins.autotests.cloud/job/home_work_14_jenkins",
+    "reportLink": "https://jenkins.autotests.cloud/job/home_work_15_jenkins",
     "language": "ru",
-    "allureFolder": "build/reports/allureReport",
+    "allureFolder": "build/reports/allure-report/allureReport",
     "enableChart": true
   },
   "telegram": {
