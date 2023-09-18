@@ -23,13 +23,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">2</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">6.247s</div>
+<div class="counter">9.990s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,13 +61,87 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Tests</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Standard error</a>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="articlesOpen()"></a>
+<h3 class="failures">articlesOpen()</h3>
+<span class="code">
+<pre>Element should have text &quot;Как писать в резюме об опыте работы и навыках&quot; {[role='heading']}
+Element: '&lt;div data-guid=&quot;71481851-7e33-46aa-822c-677cfac52a10&quot; data-test=&quot;atom-container&quot; role=&quot;heading&quot;&gt;ИТ-направления в Тинькофф
+Выберите направление и узнайте больше о команде, технологиях, проектах, процессах и преимуществах&lt;/div&gt;'
+Actual value: text=&quot;ИТ-направления в Тинькофф
+Выберите направление и узнайте больше о команде, технологиях, проектах, процессах и преимуществах&quot;
+Screenshot: file:/D:/Users/user/IdeaProjects/HomeWork15/build/reports/tests/1695069719895.0.png
+Page source: file:/D:/Users/user/IdeaProjects/HomeWork15/build/reports/tests/1695069719895.0.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:162)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app/jdk.proxy3/jdk.proxy3.$Proxy18.shouldHave(Unknown Source)
+	at app//tinkoff.tests.LookingForVacancyOfQATest.articlesOpen(LookingForVacancyOfQATest.java:39)
+	at java.base@18.0.2/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base@18.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@18.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="lookingVacancyTest()"></a>
+<h3 class="failures">lookingVacancyTest()</h3>
+<span class="code">
+<pre>java.lang.IllegalStateException: No webdriver is bound to current thread: 1. You need to call open(url) first.
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.lambda$getWebDriver$1(WebDriverThreadLocalContainer.java:144)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getWebDriver(WebDriverThreadLocalContainer.java:143)
+	at com.codeborne.selenide.WebDriverRunner.getWebDriver(WebDriverRunner.java:112)
+	at com.codeborne.selenide.impl.StaticDriver.getWebDriver(StaticDriver.java:51)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:40)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:122)
+	at com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:116)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsClickable(WebElementSource.java:173)
+	at com.codeborne.selenide.commands.Click.findElement(Click.java:46)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:28)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:21)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:162)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at jdk.proxy3/jdk.proxy3.$Proxy18.click(Unknown Source)
+	at tinkoff.tests.LookingForVacancyOfQATest.lookingVacancyTest(LookingForVacancyOfQATest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	Suppressed: java.lang.IllegalStateException: No webdriver is bound to current thread: 1. You need to call open(url) first.
+		at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.lambda$getWebDriver$1(WebDriverThreadLocalContainer.java:144)
+		at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+		at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getWebDriver(WebDriverThreadLocalContainer.java:143)
+		at com.codeborne.selenide.WebDriverRunner.getWebDriver(WebDriverRunner.java:112)
+		at tinkoff.helpers.Attach.screenshotAs(Attach.java:19)
+		at tinkoff.tests.TestBase.addAttachments(TestBase.java:41)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at io.qameta.allure.junit5.AllureJunit5.processFixture(AllureJunit5.java:138)
+		at io.qameta.allure.junit5.AllureJunit5.interceptAfterEachMethod(AllureJunit5.java:124)
+		... 2 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -78,24 +152,29 @@
 </tr>
 </thead>
 <tr>
-<td class="success">lookingVacancyTest()</td>
-<td class="success">6.247s</td>
-<td class="success">passed</td>
+<td class="failures">articlesOpen()</td>
+<td class="failures">9.982s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">lookingVacancyTest()</td>
+<td class="failures">0.008s</td>
+<td class="failures">failed</td>
 </tr>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
 <pre>[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=100.0.4896.60 Platform=linux
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.16.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (a10c80999515c6e367706b60bc871902)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on linux (a10c80999515c6e367706b60bc871902),proxy=null,downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -&gt; RemoteWebDriver: chrome on linux (04ef72a11a9f2ee02ddbb58c24a789dc)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on linux (04ef72a11a9f2ee02ddbb58c24a789dc),proxy=null,downloadsFolder=null] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
-[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (a10c80999515c6e367706b60bc871902)...
-[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 122 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -&gt; RemoteWebDriver: chrome on linux (04ef72a11a9f2ee02ddbb58c24a789dc)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 483 ms
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on linux (null),proxy=null,downloadsFolder=null] in 1 [size=0]
 </pre>
 </span>
@@ -108,7 +187,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.2</a> at 18 сент. 2023 г., 23:39:37</p>
+<a href="http://www.gradle.org">Gradle 8.2</a> at 18 сент. 2023 г., 23:42:04</p>
 </div>
 </div>
 </body>
