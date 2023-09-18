@@ -22,12 +22,12 @@ public class LookingForVacancyOfQATest extends TestBase {
         $(byText("Смотреть вакансии")).click();
         $(byText("Направление")).click();
         $(byText("Backend")).click();
+        $("[data-qa-type='listFilter/experiencesUrl.wrapper']").click();
         $(byText("Любой")).click();
-        $(byText("Middle")).click();
         $(byText("Город")).click();
         $(byText("Алматы")).click();
         $(byText("Java")).click();
 
-        $(byText("Java-разработчик")).shouldHave(text("Java-разработчик "));
+        $(byText("Java разработчик в Банкоматы")).shouldHave(text("Java разработчик в Банкоматы"));
     }
 }
