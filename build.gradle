@@ -56,18 +56,8 @@ task tinkoff_test(type: Test) {
         includeTags("tinkoff")
     }
 }
-//task reg_test(type: Test) {
-//    useJUnitPlatform {
-//        includeTags("regTest")
-//    }
-//}
-//task faker_test(type: Test) {
-//    useJUnitPlatform {
-//        includeTags("regFaker")
-//    }
-//    task property_test(type: Test) {
-//        useJUnitPlatform {
-//            includeTags("property")
-//        }
-//    }
-//}
+task tinkoff_test_articles(type: Test) {
+    useJUnitPlatform {
+        includeTags("tinkoff_articles")
+    }
+}
