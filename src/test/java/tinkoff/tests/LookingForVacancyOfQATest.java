@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class LookingForVacancyOfQATest extends TestBase {
     @BeforeAll
     static void openWeb() {
-       open("https://www.tinkoff.ru/career/it/about/");
+       open("https://www.tinkoff.ru/career/");
     }
 
     @Test
