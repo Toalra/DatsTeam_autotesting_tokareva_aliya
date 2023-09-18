@@ -1,0 +1,3 @@
+[2023-09-18T20:29:47.850Z] [SEVERE] https://www.tinkoff.ru/api/front/eventea-beer/event - Failed to load resource: the server responded with a status of 400 ()
+[2023-09-18T20:29:48.033Z] [SEVERE] https://www.tinkoff.ru/api/users-navigation/api/authorization/validate - Failed to load resource: the server responded with a status of 401 ()
+[2023-09-18T20:29:49.060Z] [SEVERE] https://www.tinkoff.ru/api/front/eventea-beer/event - Failed to load resource: the server responded with a status of 400 ()
