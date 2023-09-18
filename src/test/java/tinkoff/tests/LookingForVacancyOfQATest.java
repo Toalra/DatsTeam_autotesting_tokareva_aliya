@@ -1,12 +1,10 @@
 package tinkoff.tests;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
 
 public class LookingForVacancyOfQATest extends TestBase {
 //    @BeforeAll
@@ -17,7 +15,7 @@ public class LookingForVacancyOfQATest extends TestBase {
     @Test
     @Tag("tinkoff")
     public void lookingVacancyTest() {
-        $(".ab32iOGLV").click();
+        $(".gbtjzKzLV").click();
         $(".dbVmwKQGC").click();
         $(".bIy-+Id").shouldHave(text("QA - инженер (frontend) в Тинькофф Инвестиции"));
         $(".bIy-+Id").shouldHave(text("QA-инженер на backend приложений"));
