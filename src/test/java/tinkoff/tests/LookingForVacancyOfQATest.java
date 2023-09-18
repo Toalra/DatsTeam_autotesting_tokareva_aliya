@@ -7,11 +7,11 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class LookingForVacancyOfQATest {
-    @BeforeAll
-    public void openWeb() {
-        open("https://www.tinkoff.ru/career/it/about/");
-    }
+public class LookingForVacancyOfQATest extends TestBase {
+//    @BeforeAll
+//    public void openWeb() {
+//        open("https://www.tinkoff.ru/career/it/about/");
+//    }
 
     @Test
     public void lookingVacancyTest() {
