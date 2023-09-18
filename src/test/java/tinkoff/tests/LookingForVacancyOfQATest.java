@@ -33,6 +33,7 @@ public class LookingForVacancyOfQATest extends TestBase {
 
     }
     @Test
+    @Tag("tinkoff_articles")
     public void articlesOpen() {
         $("[data-schema-path='slides.0']").click();
         $("[role='heading']").shouldHave(text("Как писать в резюме об опыте работы и навыках"));
