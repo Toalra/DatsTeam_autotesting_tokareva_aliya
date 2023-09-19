@@ -55,6 +55,7 @@ task tinkoff_test(type: Test) {
     useJUnitPlatform {
         includeTags("tinkoff")
         includeTags("tinkoff_articles")
+        includeTags("tinkoff_offer")
     }
 }
 
