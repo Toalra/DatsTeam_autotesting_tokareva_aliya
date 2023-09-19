@@ -53,7 +53,8 @@ test {
 
 task tinkoff_test(type: Test) {
     useJUnitPlatform {
-        includeTags("tinkoff", "tinkoff_articles")
+        includeTags("tinkoff")
+        includeTags("tinkoff_articles")
     }
 }
 
