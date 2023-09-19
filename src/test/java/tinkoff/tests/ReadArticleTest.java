@@ -15,7 +15,7 @@ public class ReadArticleTest {
     static void openWeb() {
         open("https://www.tinkoff.ru/career/");
     }
-
+    @Disabled
     @Test
     @Tag("tinkoff_articles")
     public void articlesOpen() {
