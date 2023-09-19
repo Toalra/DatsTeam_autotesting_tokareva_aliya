@@ -1,4 +1,4 @@
-package tinkoff.properties;
+package properties;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Tag;

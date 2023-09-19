@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tinkoff.tests.ReadArticleTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-09-19T14:49:05" hostname="WIN-VNKFU8S8K4U" time="10.397">
+<testsuite name="tinkoff.tests.ReadArticleTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2023-09-19T15:15:46" hostname="WIN-VNKFU8S8K4U" time="0.001">
   <properties/>
-  <testcase name="articlesOpen()" classname="tinkoff.tests.ReadArticleTest" time="10.397">
-    <failure message="Element should have text &quot;Как писать в резюме об опыте работы и навыках&quot; {[role='heading']}&#13;&#10;Element: '&lt;div data-guid=&quot;71481851-7e33-46aa-822c-677cfac52a10&quot; data-test=&quot;atom-container&quot; role=&quot;heading&quot;&gt;ИТ-направления в Тинькофф&#10;Выберите направление и узнайте больше о команде, технологиях, проектах, процессах и преимуществах&lt;/div&gt;'&#13;&#10;Actual value: text=&quot;ИТ-направления в Тинькофф&#10;Выберите направление и узнайте больше о команде, технологиях, проектах, процессах и преимуществах&quot;&#13;&#10;Screenshot: file:/D:/Users/user/IdeaProjects/HomeWork15/build/reports/tests/1695134951871.0.png&#13;&#10;Page source: file:/D:/Users/user/IdeaProjects/HomeWork15/build/reports/tests/1695134951871.0.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have text &quot;Как писать в резюме об опыте работы и навыках&quot; {[role='heading']}
-Element: '&lt;div data-guid=&quot;71481851-7e33-46aa-822c-677cfac52a10&quot; data-test=&quot;atom-container&quot; role=&quot;heading&quot;&gt;ИТ-направления в Тинькофф
-Выберите направление и узнайте больше о команде, технологиях, проектах, процессах и преимуществах&lt;/div&gt;'
-Actual value: text=&quot;ИТ-направления в Тинькофф
-Выберите направление и узнайте больше о команде, технологиях, проектах, процессах и преимуществах&quot;
-Screenshot: file:/D:/Users/user/IdeaProjects/HomeWork15/build/reports/tests/1695134951871.0.png
-Page source: file:/D:/Users/user/IdeaProjects/HomeWork15/build/reports/tests/1695134951871.0.html
-Timeout: 4 s.
-	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
-	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
-	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
-	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
-	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
-	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:162)
-	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
-	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app/jdk.proxy3/jdk.proxy3.$Proxy18.shouldHave(Unknown Source)
-	at app//tinkoff.tests.ReadArticleTest.articlesOpen(ReadArticleTest.java:21)
-	at java.base@18.0.2/java.lang.reflect.Method.invoke(Method.java:577)
-	at java.base@18.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base@18.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
-</failure>
+  <testcase name="articlesOpen()" classname="tinkoff.tests.ReadArticleTest" time="0.001">
+    <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=100.0.4896.60 Platform=linux
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\Users\user\IdeaProjects\HomeWork15\build\downloads\1695136539091_14716_1
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+сент. 19, 2023 6:15:42 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+сент. 19, 2023 6:15:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 114
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=116.0.5845.188 Platform=windows
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.16.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (4071c0f71b414f48674de29842641ffd)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on linux (4071c0f71b414f48674de29842641ffd),proxy=null,downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (0ea6d9fbf037e3d58cf2a839655a8c33)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (0ea6d9fbf037e3d58cf2a839655a8c33),proxy=null,downloadsFolder=D:\Users\user\IdeaProjects\HomeWork15\build\downloads\1695136539091_14716_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
 ]]></system-err>
 </testsuite>

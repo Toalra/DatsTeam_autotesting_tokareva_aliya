@@ -58,5 +58,10 @@ task tinkoff_test(type: Test) {
         includeTags("tinkoff_offer")
     }
 }
-
-
+task cloudgeo_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("cloudgeo")
+//        includeTags("tinkoff_articles")
+//        includeTags("tinkoff_offer")
+    }
+}

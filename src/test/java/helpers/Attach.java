@@ -1,4 +1,4 @@
-package tinkoff.helpers;
+package helpers;
 
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;
