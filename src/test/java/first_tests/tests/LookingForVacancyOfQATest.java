@@ -29,7 +29,6 @@ public class LookingForVacancyOfQATest extends TestBase {
         $(".develop__first-section__intro__title").shouldHave(text("Про разработку"));
 
     }
-    @Disabled
     @Test
     public void aboutGameTest() {
         openWeb();
@@ -44,6 +43,7 @@ public class LookingForVacancyOfQATest extends TestBase {
     }
     @Test
     public void careerTest() {
+        openWeb();
         $(".header").$(".trans-header__menu_5").click();
         $(".career__first-section__intro__title").shouldHave(text("Карьера в dats.team"));
     }
@@ -51,7 +51,7 @@ public class LookingForVacancyOfQATest extends TestBase {
     public void aboutCompanyTest() {
         openWeb();
         $(".header").$(".trans-header__menu_6").click();
-        $(".about__first-section__intro__title").shouldHave(text("Компания datsteam"));
+        $(".about__first-section__intro__title").shouldHave(text("Компания dats.team"));
     }
 
 }
