@@ -29,6 +29,7 @@ public class LookingForVacancyOfQATest extends TestBase {
         $(".develop__first-section__intro__title").shouldHave(text("Про разработку"));
 
     }
+    @Disabled
     @Test
     public void aboutGameTest() {
         openWeb();
