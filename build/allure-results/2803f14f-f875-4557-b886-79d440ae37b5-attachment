@@ -1,0 +1,281 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Dats.Team | Career</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.minified1.5.css">
+  </head>
+  <body>
+  <input type="hidden" data-path="career.json">
+  <section class="career__first-section">
+    <div class="cnt cnt--large">
+      <div class="header">
+        <a href="/">
+          <img class="header__logo" src="/img/logo.png" alt="DatsTeam">
+        </a>
+
+        <nav class="navbar navbar-header">
+          <div class="navbar__menu-mob">
+            <a href="/">
+              <img class="navbar__menu-mob-logo" src="/img/logo-mob.svg" width="115" height="98" alt="DatsTeam">
+            </a>
+            <button type="button" class="navbar__menu-mob-hamburger">
+              <img src="./img/close.svg" width="50" height="34" alt="">
+            </button>
+          </div>
+          <div class="navbar__links">
+            <a href="/products.html" class="navbar_item trans-header__menu_1">про продукты</a>
+            <a href="/develop.html" class="navbar_item trans-header__menu_2">про разработку</a>
+            <a href="https://dats.games/" class="navbar_item trans-header__menu_3">про игры</a>
+            <a href="/conf-and-meetup.html" class="navbar_item trans-header__menu_4">конференции и митапы</a>
+            <a href="/career.html" class="navbar_item trans-header__menu_5">карьера</a>
+            <a href="/about.html" class="navbar_item trans-header__menu_6">о компании</a>
+            <a href="#" class="choose-locale navbar_item__icon">
+              <img class="translate-icon-ru translate-icon show" src="/img/icons/translate-icon-ru.png" alt="translate-icon">
+              <img class="translate-icon-en translate-icon" src="/img/icons/translate-icon-en.png" alt="translate-icon">
+            </a>
+          </div>
+          <div class="overlay"></div>
+        </nav>
+
+        <img src="./img/menu.svg" width="50" height="34" class="menu__hamburger" alt="">
+      </div>
+    </div>
+    <div class="cnt">
+      <div class="career__first-section__intro">
+        <img src="./img/career/career__first-section__intro.png" class="career__first-section__intro__img" alt="intro">
+
+        <div class="career__first-section__intro__title trans_career__first-section__intro__title"> Карьера <br>в dats.team</div>
+
+        <ul class="career__first-section__intro__desc">
+          <li class="trans-first__section_desc_1 trans_career__first-section__list_first">Мы всегда ищем людей, способных сделать нашу <br> команду продуктивнее, эффективнее и быстрее.</li>
+
+          <li class="trans-first__section_desc_2 trans_career__first-section__list_second">Более 500 человек смогли с нами сделать карьеру.<br> Индивидуальный подход к мотивации, возможность <br>ротации в проектах, возможность перехода на новые <br> грейды, благодаря масштабируемости и росту проектов <br> – мы так работаем.</li>
+
+          <li class="trans-first__section_desc_3 trans_career__first-section__list_third"> И, да, мы понимаем, что у всех есть личное время. У нас <br> удобный лояльный рабочий график. Но мы сами не <br> делим жизнь на рабочие и не рабочие часы, ведь мы <br> увлечены!</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="career__third-section">
+    <div class="career__third-section__title">
+      <div class="cnt trans__cnt">открытые вакансии</div>
+    </div>
+
+    <div class="career__third-section__list">
+      <div data-vacancy-id="symfonyDeveloper" id="symfonyDeveloper" data-vacancy="symfony" class="career__third-section__list__item">
+        <div class="cnt cnt__clear">
+          <div class="vacancy_wrapper">
+            <div class="career__third-section__list__item__icon"></div>
+
+            <div class="career__third-section__list__item__cnt">
+              <h6 class="trans__cnt_first">PHP-разработчик</h6>
+
+              <span class="vacancy__about trans__vacancy__about_1">расскажите о себе</span>
+
+              <a class="hh-link trans__hh-link_1" href="https://hh.ru/employer/4437201" target="_blank">Эта вакансия на hh</a>
+
+              <form class="career__form" id="form-contact-2" method="post" action="mailer.php" enctype="multipart/form-data">
+                <input class="career__form-field career__form-vacancy" type="text" name="vacancy" value="PHP-разработчик">
+                <input class="career__form-field career__form-phone trans__career__form-phone_1" type="number" name="tel" placeholder="Телефон" autocomlete="off" required="required" data-error="Введите телефон!">
+                <input class="career__form-field career__form-tg trans__career__form-tg_1" type="text" name="tg" placeholder="Telegram" required="required" autocomlete="off" data-error="Введите Telegram!">
+                <textarea class="career__form-field career__form-message trans__career__form-message_1" type="text" name="text" placeholder="Расскажи про свой опыт или приложи CV или ссылку на на резюме" required="required" data-error="Расскажи про свой опыт или приложи CV или ссылку на резюме!"></textarea>
+<!--                <input type="file" name="userfile" class="career__form-userfile" accept=".jpg, .jpeg, .png, .pdf">-->
+                <button class="career__submit" type="submit">
+                  <span class="career__submit-text trans__career__submit-text">Погнали!</span>
+                </button>
+              </form>
+
+              <p class="trans__text-framework"> У нас одна из самых серьезных symfony экспертиз на рынке. Мы используем и развиваем фреймворк в ключевых проектах. Контрибьютьте вместе с нами! <br> <a class="" href="https://www.youtube.com/watch?v=o43nqBI2J9w" target="_blank">
+ https://www.youtube.com/watch?v=o43nqBI2J9w
+ </a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-vacancy-id="iOSDeveloper" id="iOSDeveloper" data-vacancy="ios" class="career__third-section__list__item">
+        <div class="cnt cnt__clear">
+          <div class="vacancy_wrapper">
+            <div class="career__third-section__list__item__icon"></div>
+
+            <div class="career__third-section__list__item__cnt">
+              <h6 class="trans__cnt_third">Java-разработчик</h6>
+
+              <span class="vacancy__about trans__vacancy__about_2">расскажите о себе</span>
+
+              <a class="hh-link trans__hh-link_2" href="https://hh.ru/employer/4437201" target="_blank">Эта вакансия на hh</a>
+
+              <form class="career__form" id="form-contact-3" method="post" action="mailer.php" enctype="multipart/form-data">
+                <input class="career__form-field career__form-vacancy" type="text" name="vacancy" value="Java-разработчик">
+                <input class="career__form-field career__form-phone trans__career__form-phone_2" type="number" name="tel" placeholder="Телефон" autocomlete="off" required="required" data-error="Введите телефон!">
+                <input class="career__form-field career__form-tg trans__career__form-tg_2" type="text" name="tg" placeholder="Telegram" required="required" autocomlete="off" data-error="Введите Telegram!">
+                <textarea class="career__form-field career__form-message trans__career__form-message_2" type="text" name="text" placeholder="Расскажи про свой опыт или приложи CV или ссылку на на резюме" required="required" data-error="Расскажи про свой опыт или приложи CV или ссылку на резюме!"></textarea>
+<!--                <input type="file" name="userfile" class="career__form-userfile" accept=".jpg, .jpeg, .png, .pdf">-->
+                <button class="career__submit" type="submit">
+                  <span class="career__submit-text trans__career__submit-text">Погнали!</span>
+                </button>
+              </form>
+
+              <p class="trans__text__tops-categories">У нас несколько продуктовых команд, опытные технические лидеры и сильная экспертиза. Мы используем iSpring и последние версии Java. Разрабатываем собственные продукты с нуля. Разнообразие условий и возможностей для профессионального роста и комфортной работы. Профессиональные комьюнити.
+
+ <a class="" href="https://www.youtube.com/watch?v=WfgTC3D2N9Y" target="_blank">
+ https://www.youtube.com/watch?v=WfgTC3D2N9Y
+ </a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-vacancy-id="accountManager" id="accountManager" data-vacancy="account" class="career__third-section__list__item">
+        <div class="cnt cnt__clear">
+          <div class="vacancy_wrapper">
+            <div class="career__third-section__list__item__icon"></div>
+
+            <div class="career__third-section__list__item__cnt">
+              <h6 class="trans__cnt_second">Аккаунт-менеджер</h6>
+
+              <span class="vacancy__about trans__vacancy__about_3">расскажите о себе</span>
+
+              <a class="hh-link trans__hh-link_3" href="https://hh.ru/employer/4437201" target="_blank">Эта вакансия на hh</a>
+
+              <form class="career__form" id="form-contact-4" method="post" action="mailer.php" enctype="multipart/form-data">
+                <input class="career__form-field career__form-vacancy" type="text" name="vacancy" value="Аккаунт-менеджер">
+                <input class="career__form-field career__form-phone trans__career__form-phone_3" type="number" name="tel" placeholder="Телефон" autocomlete="off" required="required" data-error="Введите телефон!">
+                <input class="career__form-field career__form-tg trans__career__form-tg_3" type="text" name="tg" placeholder="Telegram" required="required" autocomlete="off" data-error="Введите Telegram!">
+                <textarea class="career__form-field career__form-message trans__career__form-message_3" type="text" name="text" placeholder="Расскажи про свой опыт или приложи CV или ссылку на на резюме" required="required" data-error="Расскажи про свой опыт или приложи CV или ссылку на резюме!"></textarea>
+<!--                <input type="file" name="userfile" class="career__form-userfile" accept=".jpg, .jpeg, .png, .pdf">-->
+                <button class="career__submit" type="submit">
+                  <span class="career__submit-text trans__career__submit-text">Погнали!</span>
+                </button>
+              </form>
+
+              <p class="trans__text_largest_partner"> В нашем арсенале несколько крупнейших партнерских сеток, мы куём профессионалов для всего рынка ;-)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-vacancy-id="trafficManager" id="trafficManager" data-vacancy="mediabuyer" class="career__third-section__list__item">
+        <div class="cnt cnt__clear">
+          <div class="vacancy_wrapper">
+            <div class="career__third-section__list__item__icon"></div>
+
+            <div class="career__third-section__list__item__cnt">
+              <h6 class="trans__cnt_fourth">Трафик-менеджер</h6>
+
+              <span class="vacancy__about trans__vacancy__about_4">расскажите о себе</span>
+
+              <a class="hh-link trans__hh-link_4" href="https://hh.ru/employer/4437201" target="_blank">Эта вакансия на hh</a>
+
+              <form class="career__form" id="form-contact-5" method="post" action="mailer.php" enctype="multipart/form-data">
+                <input class="career__form-field career__form-vacancy" type="text" name="vacancy" value="Трафик-менеджер">
+                <input class="career__form-field career__form-phone trans__career__form-phone_4" type="number" name="tel" placeholder="Телефон" autocomlete="off" required="required" data-error="Введите телефон!">
+                <input class="career__form-field career__form-tg trans__career__form-tg_4" type="text" name="tg" placeholder="Telegram" required="required" autocomlete="off" data-error="Введите Telegram!">
+                <textarea class="career__form-field career__form-message trans__career__form-message_4" type="text" name="text" placeholder="Расскажи про свой опыт или приложи CV или ссылку на на резюме" required="required" data-error="Расскажи про свой опыт или приложи CV или ссылку на на резюме!"></textarea>
+<!--                <input type="file" name="userfile" class="career__form-userfile" accept=".jpg, .jpeg, .png, .pdf">-->
+                <button class="career__submit" type="submit">
+                  <span class="career__submit-text trans__career__submit-text">Погнали!</span>
+                </button>
+              </form>
+
+              <p class="trans__text__media_buying">Одна из сильнейших медиабаинговых команд. Стратегические рекламодатели и неограниченный бюджет.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-vacancy-id="productManager" id="productManager" data-vacancy="product" class="career__third-section__list__item __active">
+        <div class="cnt cnt__clear">
+          <div class="vacancy_wrapper">
+            <div class="career__third-section__list__item__icon"></div>
+
+            <div class="career__third-section__list__item__cnt">
+              <h6 class="trans__cnt_fifth">Influence-менеджер</h6>
+
+              <span class="vacancy__about trans__vacancy__about_5">расскажите о себе</span>
+
+              <a class="hh-link trans__hh-link_5" href="https://hh.ru/vacancy/81431628?hhtmFrom=employer_vacancies" target="_blank">Эта вакансия на hh</a>
+
+              <form class="career__form" id="form-contact-1" method="post" action="mailer.php" enctype="multipart/form-data">
+                <input class="career__form-field career__form-vacancy" type="text" name="vacancy" value="Influence-менеджер">
+                <input class="career__form-field career__form-phone trans__career__form-phone_5" type="number" name="tel" placeholder="Телефон" autocomlete="off" required="required">
+                <input class="career__form-field career__form-tg trans__career__form-tg_5" type="text" name="tg" autocomlete="off" placeholder="Telegram" required="required">
+                <textarea class="career__form-field career__form-message trans__career__form-message_5" type="text" name="text" placeholder="Расскажи про свой опыт или приложи CV или ссылку на на резюме" required="required"></textarea>
+<!--                <input type="file" name="userfile" class="career__form-userfile" accept=".jpg, .jpeg, .png, .pdf">-->
+                <button class="career__submit" type="submit">
+                  <span class="career__submit-text trans__career__submit-text">Погнали!</span>
+                </button>
+              </form>
+
+              <p class="trans__text_results">Если у тебя есть опыт размещения рекламы у блогеров, опыт закупки рекламы, трафика в соцсетях, откликайся.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cnt">
+      <div class="footer">
+        <nav class="navbar navbar-footer">
+          <a href="/products.html" class="navbar_item trans-footer__menu_1">про продукты</a>
+          <a href="/develop.html" class="navbar_item trans-footer__menu_2">про разработку</a>
+          <a href="/conf-and-meetup.html" class="navbar_item trans-footer__menu_3">конференции и митапы</a>
+          <a href="/career.html" class="navbar_item trans-footer__menu_4">карьера</a>
+          <a href="/about.html" class="navbar_item trans-footer__menu_5">о компании</a>
+        </nav>
+
+        <a href="/">
+          <img class="header__logo" src="/img/logo__turbid.png" alt="DatsTeam">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/script_career.js"></script>
+
+  <script>
+    const available = ["product", "ios", "symfony", "account", "mediabuyer"];
+    const urlParam = window.location.search.slice(1);
+
+    let param = available.find((item) => item === urlParam);
+
+    if (!param) {
+      param = "product";
+    }
+
+    document
+            .querySelector(
+                    `.career__third-section__list__item[data-vacancy=${param}]`
+            )
+            .classList.add("__active");
+
+    document
+            .querySelectorAll(".career__third-section__list__item")
+            .forEach((vacancy) => {
+              vacancy.addEventListener("click", (event) => {
+                const vacancyId =
+                        event.currentTarget.getAttribute("data-vacancy-id");
+
+                const selectedVacancy = document.getElementById(vacancyId);
+
+                if (!selectedVacancy.classList.contains("__active")) {
+                  document
+                          .querySelectorAll(".career__third-section__list__item")
+                          .forEach((sourceVacancy) => {
+                            document
+                                    .getElementById(sourceVacancy.id)
+                                    .classList.remove("__active");
+                          });
+                  selectedVacancy.classList.add("__active");
+                }
+              });
+            });
+  </script>
+  <script src="./js/transcript_1.js"></script>
+  
+
+</body></html>
