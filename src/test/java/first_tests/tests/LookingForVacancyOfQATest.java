@@ -35,5 +35,17 @@ public class LookingForVacancyOfQATest extends TestBase {
         $(".header").$(".trans-header__menu_3").click();
         $(".PromoScreen_title__MT_n6").shouldHave(text("HYPERCORE FACTORY"));
     }
+    @Test
+    public void conferencesMeetupsTest() {
+        openWeb();
+        $(".header").$(".trans-header__menu_4").click();
+        $(".conf-and-meetup__first-section__intro__title").shouldHave(text("Конференции  и митапы"));
+    }
+    @Test
+    public void careerTest() {
+        openWeb();
+        $(".header").$(".trans-header__menu_5").click();
+        $(".career__first-section__intro__title").shouldHave(text(" Карьера в dats.team"));
+    }
 
 }
