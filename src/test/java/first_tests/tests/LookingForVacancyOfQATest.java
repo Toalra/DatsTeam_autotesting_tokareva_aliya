@@ -52,7 +52,7 @@ public class LookingForVacancyOfQATest extends TestBase {
     public void aboutCompanyTest() {
         openWeb();
         $(".header").$(".trans-header__menu_6").click();
-        $(".about__first-section__intro__title").shouldHave(text("Компания dats.team"));
+        $(".about__first-section__intro__title").shouldHave(text("Компания datsteam"));
     }
 
 }
