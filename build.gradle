@@ -51,9 +51,9 @@ test {
     useJUnitPlatform()
 }
 
-task tinkoff_test(type: Test) {
+task first_test(type: Test) {
     useJUnitPlatform {
-        includeTags("tinkoff")
+        includeTags("test_1")
     }
 }
 task cloudgeo_test(type: Test) {

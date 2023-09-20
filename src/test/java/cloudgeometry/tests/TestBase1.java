@@ -17,7 +17,7 @@ public class TestBase1 {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl = "https://www.cloudgeometry.io/";
+        Configuration.baseUrl = "https://www.homebuddy.com";
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy="eager";
 

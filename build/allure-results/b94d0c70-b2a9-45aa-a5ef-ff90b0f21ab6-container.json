@@ -1,0 +1,1 @@
+{"uuid":"b94d0c70-b2a9-45aa-a5ef-ff90b0f21ab6","name":"LookingForVacancyOfQATest","children":["47a3ed8e-ca5d-40f1-9996-8aaf536529bb"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1695235913040,"stop":1695235913056}],"afters":[],"start":1695235912980,"stop":1695235926877}
