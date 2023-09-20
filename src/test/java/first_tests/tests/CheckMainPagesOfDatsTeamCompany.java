@@ -1,7 +1,6 @@
 package first_tests.tests;
 
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +10,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 @Tag("test_1")
-public class LookingForVacancyOfQATest extends TestBase {
+public class CheckMainPagesOfDatsTeamCompany extends TestBase {
     @BeforeAll
     static void openWeb() {
        open("https://dats.team/");
