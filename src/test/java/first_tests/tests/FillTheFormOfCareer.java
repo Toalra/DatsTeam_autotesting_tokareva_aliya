@@ -4,8 +4,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Condition.value;
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
@@ -24,7 +23,7 @@ public class FillTheFormOfCareer extends TestBase{
             $("input[name='tg']").setValue("@tester");
             $(".trans__career__form-message_1").setValue("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком.");
 
-            $("input[name='tel']").shouldHave(value("89123456789"));
+            $("input[name='tel']").shouldHave(exactValue("89123456789"));
             $("input[name='tg']").shouldHave(text("@tester"));
             $(".trans__career__form-message_1").shouldHave(text("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком."));
         });
