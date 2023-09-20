@@ -24,8 +24,8 @@ public class FillTheFormOfCareer extends TestBase{
             $(".trans__career__form-message_1").setValue("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком.");
 
             $("input[name='tel']").shouldHave(exactValue("89123456789"));
-            $("input[name='tg']").shouldHave(text("@tester"));
-            $(".trans__career__form-message_1").shouldHave(text("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком."));
+            $("input[name='tg']").shouldHave(value("@tester"));
+            $(".trans__career__form-message_1").shouldHave(value("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком."));
         });
         }
 
