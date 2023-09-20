@@ -1,0 +1,104 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Dats.Team | Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.minified1.5.css">
+  </head>
+<body>
+    <input type="hidden" data-path="products.json">
+    <section id="screenDisplay" class="products__first-section"><div class="cnt cnt--large"><div class="header"><a href="/"><img src="/img/logo.png" alt="DatsTeam" class="header__logo"></a> <nav class="navbar navbar-header"><div class="navbar__menu-mob"><a href="/"><img src="/img/logo-mob.svg" width="115" height="98" alt="DatsTeam" class="navbar__menu-mob-logo"></a> <button type="button" class="navbar__menu-mob-hamburger"><img src="./img/close.svg" width="50" height="34" alt=""></button></div> <div class="navbar__links"><a href="/products.html" class="navbar_item trans-header__menu_1">про продукты</a> <a href="/develop.html" class="navbar_item trans-header__menu_2">про разработку</a> <a href="https://dats.games/" class="navbar_item trans-header__menu_3">про игры</a> <a href="/conf-and-meetup.html" class="navbar_item trans-header__menu_4">конференции и митапы</a> <a href="/career.html" class="navbar_item trans-header__menu_5">карьера</a> <a href="/about.html" class="navbar_item trans-header__menu_6">о компании</a> <a href="#" class="choose-locale navbar_item__icon"><img src="/img/icons/translate-icon-ru.png" alt="translate-icon" class="translate-icon-ru translate-icon show"> <img src="/img/icons/translate-icon-en.png" alt="translate-icon" class="translate-icon-en translate-icon"></a></div> <div class="overlay"></div></nav> <img src="./img/menu.svg" width="50" height="34" alt="" class="menu__hamburger"></div></div></section>
+
+    <section class="products__second-section">
+      <div class="cnt">
+        <ul class="products__second-section__advantages">
+          <li name="performances">
+            <div class="products__second-section__advantages__title trans-products__advantages_title">Всегда в тренде</div>
+
+            <div class="products__second-section__advantages__desc trans-products__advantages_desc">Собственная <br> конференция, митапы и <br> большое коммьюнити <br> позволяют нам держать <br> руку на пульсе индустрии</div>
+          </li>
+
+          <li name="clock">
+            <div class="products__second-section__advantages__title trans-products__advantages_title_2">Здесь и сейчас</div>
+
+            <div class="products__second-section__advantages__desc trans-products__advantages_desc_2">Наши проекты <br> прибыльны с первого <br> года, никаких иллюзий</div>
+          </li>
+
+          <li name="team">
+            <div class="products__second-section__advantages__title trans-products__advantages_title_3">Команда</div>
+
+            <div class="products__second-section__advantages__desc trans-products__advantages_desc_3">Главное преимущество - <br> опытная команда, мы не <br> стесняемся ротировать <br> кадры между проектами,<br> шарить отделы и их <br></div>
+          </li>
+
+          <li name="earth-pin">
+            <div class="products__second-section__advantages__title trans-products__advantages_title_4">Из России - <br> на весь мир</div>
+
+            <div class="products__second-section__advantages__desc trans-products__advantages_desc_4">Каждый продукт ориентирован на свой маркет: США, Европа или весь мир</div>
+          </li>
+
+          <li name="analytics">
+            <div class="products__second-section__advantages__title trans-products__advantages_title_5">Бизнес-аналитики VS <br> системные аналитики</div>
+
+            <div class="products__second-section__advantages__desc trans-products__advantages_desc_5">Мы разделяем команду на тех, кто продумывает и тех, кто реализует</div>
+          </li>
+
+          <li name="growth">
+            <div class="products__second-section__advantages__title trans-products__advantages_title_6">Вечный <br> рост</div>
+
+            <div class="products__second-section__advantages__desc trans-products__advantages_desc_6">У нас невозможно <br> засидеться на одном <br> месте - всегда новая <br> задача или проект, <br> держим темп!</div>
+          </li>
+        </ul>
+
+        <div class="footer">
+          <nav class="navbar navbar-footer">
+            <a href="/products.html" class="navbar_item trans-footer__menu_1">про продукты</a>
+            <a href="/develop.html" class="navbar_item trans-footer__menu_2">про разработку</a>
+            <a href="/conf-and-meetup.html" class="navbar_item trans-footer__menu_3">конференции и митапы</a>
+            <a href="/career.html" class="navbar_item trans-footer__menu_4">карьера</a>
+            <a href="/about.html" class="navbar_item trans-footer__menu_5">о компании</a>
+          </nav>
+
+          <a href="/">
+            <img class="header__logo" src="/img/logo__turbid.png" alt="DatsTeam">
+          </a>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+      var screenDisplay = new Vue({
+        el: "#screenDisplay",
+        data() {
+          return {
+            slides: [
+              {
+                picture: "img/products/display-datspush.png",
+                site: "https://datspush.com",
+                name: "datspush.com",
+              },
+              {
+                picture: "img/products/display-leadbit.png",
+                site: "https://leadbit.com/",
+                name: "leadbit.com",
+              },
+            ],
+          };
+        },
+        computed: {
+          currentSlide() {
+            return this.slides[0];
+          },
+        },
+        methods: {
+          changeSlide() {
+            this.slides.push(this.slides.shift());
+          },
+        },
+      });
+    </script>
+    <script src="./js/script.min.js"></script>
+    <script src="./js/transcript_1.js"></script>
+
+
+</body></html>
