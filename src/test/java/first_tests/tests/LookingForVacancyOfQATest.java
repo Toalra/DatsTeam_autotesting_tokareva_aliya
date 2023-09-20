@@ -24,7 +24,7 @@ public class LookingForVacancyOfQATest extends TestBase {
     }
     @Test
     public void chooseAnyOffersTests () {
-        open();
+
         $(".header").$(".trans-header__menu_2").click();
         $(".develop__first-section__intro__title").shouldHave(text("Про разработку"));
 
