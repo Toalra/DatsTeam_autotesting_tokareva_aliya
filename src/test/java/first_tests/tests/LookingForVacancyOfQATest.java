@@ -45,7 +45,13 @@ public class LookingForVacancyOfQATest extends TestBase {
     public void careerTest() {
         openWeb();
         $(".header").$(".trans-header__menu_5").click();
-        $(".career__first-section__intro__title").shouldHave(text(" Карьера в dats.team"));
+        $(".career__first-section__intro__title").shouldHave(text("Карьера в dats.team"));
+    }
+    @Test
+    public void aboutCompanyTest() {
+        openWeb();
+        $(".header").$(".trans-header__menu_6").click();
+        $(".bout__first-section__intro__title").shouldHave(text("Компания dats.team"));
     }
 
 }
