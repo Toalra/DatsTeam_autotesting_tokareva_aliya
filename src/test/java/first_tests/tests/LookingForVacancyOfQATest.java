@@ -17,20 +17,21 @@ public class LookingForVacancyOfQATest extends TestBase {
     }
 
     @Test
-    public void lookingVacancyTest() {
-        open();
+    public void alwaysInTrendTest() {
+        openWeb();
         $(".navbar-header").$(".trans-header__menu_1").click();
         $("li[name='performances']").shouldHave(text("Всегда в тренде"));
     }
     @Test
-    public void chooseAnyOffersTests () {
-
+    public void aboutDevelopTests() {
+        openWeb();
         $(".header").$(".trans-header__menu_2").click();
         $(".develop__first-section__intro__title").shouldHave(text("Про разработку"));
 
     }
     @Test
-    public void articlesOpen() {
+    public void aboutGameTest() {
+        openWeb();
         $(".header").$(".trans-header__menu_3").click();
         $(".PromoScreen_title__MT_n6").shouldHave(text("HYPERCORE FACTORY"));
     }
