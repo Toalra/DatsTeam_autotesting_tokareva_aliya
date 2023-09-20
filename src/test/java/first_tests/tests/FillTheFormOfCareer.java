@@ -25,7 +25,7 @@ public class FillTheFormOfCareer extends TestBase{
 
             $("input[name='tel']").shouldHave(text("89123456789"));
             $("input[name='tg']").shouldHave(text("@tester"));
-            $("input[name='text']").shouldHave(text("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком."));
+            $(".trans__career__form-message_1").shouldHave(text("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком."));
         });
         }
 
