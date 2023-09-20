@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+import static io.qameta.allure.Allure.step;
+
 @Tag("test_1")
 public class FillTheFormOfCareer extends TestBase{
     @BeforeAll
@@ -15,14 +17,16 @@ public class FillTheFormOfCareer extends TestBase{
     }
     @Test
     public void fillTheForm() {
-        $("#symfonyDeveloper").click();
-        $("input[type='number']").setValue("89123456789");
-        $("input[type='tg']").setValue("@tester");
-        $("input[type='text']").setValue("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком.");
+        step("Fill the career form", () -> {
+            $("#symfonyDeveloper").click();
+            $("input[type='number']").setValue("89123456789");
+            $("input[type='tg']").setValue("@tester");
+            $("input[type='text']").setValue("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком.");
 
-        $("input[type='number']").shouldHave(text("89123456789"));
-        $("input[type='tg']").shouldHave(text("@tester"));
-        $("input[type='text']").shouldHave(text("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком."));
-    }
+            $("input[type='number']").shouldHave(text("89123456789"));
+            $("input[type='tg']").shouldHave(text("@tester"));
+            $("input[type='text']").shouldHave(text("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком."));
+        });
+        }
 
 }
