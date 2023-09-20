@@ -20,7 +20,9 @@ public class FillTheFormOfCareer extends TestBase{
         step("Fill the career form", () -> {
             $("#symfonyDeveloper").click();
             $("input[type='number']").setValue("89123456789");
+            $("input[type='tg']").click();
             $("input[type='tg']").setValue("@tester");
+            $("input[type='text']").click();
             $("input[type='text']").setValue("Добрый день! Меня зовут Алия. Я являюсь автотестировщиком.");
 
             $("input[type='number']").shouldHave(text("89123456789"));
