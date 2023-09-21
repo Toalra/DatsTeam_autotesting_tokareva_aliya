@@ -1,0 +1,159 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Dats.Team | Conferences &amp; MeetUps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.minified2.2.css">
+  </head>
+<body>
+  <input type="hidden" data-path="conf-and-meetup.json">
+  <section class="conf-and-meetup__first-section">
+      <div class="cnt cnt--large">
+        <div class="header">
+          <a href="/">
+            <img class="header__logo" src="/img/logo.png" alt="DatsTeam">
+          </a>
+
+          <nav class="navbar navbar-header">
+            <div class="navbar__menu-mob">
+              <a href="/">
+                <img class="navbar__menu-mob-logo" src="/img/logo-mob.svg" width="115" height="98" alt="DatsTeam">
+              </a>
+              <button type="button" class="navbar__menu-mob-hamburger">
+                <img src="./img/close.svg" width="50" height="34" alt="">
+              </button>
+            </div>
+            <div class="navbar__links">
+              <a href="/products.html" class="navbar_item trans-header__menu_1">про продукты</a>
+              <a href="/develop.html" class="navbar_item trans-header__menu_2">про разработку</a>
+              <a href="https://dats.games/" class="navbar_item trans-header__menu_3">про игры</a>
+              <a href="/conf-and-meetup.html" class="navbar_item trans-header__menu_4">конференции и митапы</a>
+              <a href="/career.html" class="navbar_item trans-header__menu_5">карьера</a>
+              <a href="/about.html" class="navbar_item trans-header__menu_6">о компании</a>
+              <a href="#" class="choose-locale navbar_item__icon">
+                <img class="translate-icon-ru translate-icon show" src="/img/icons/translate-icon-ru.png" alt="translate-icon">
+                <img class="translate-icon-en translate-icon" src="/img/icons/translate-icon-en.png" alt="translate-icon">
+              </a>
+            </div>
+            <div class="overlay"></div>
+          </nav>
+
+          <img src="./img/menu.svg" width="50" height="34" class="menu__hamburger" alt="">
+        </div>
+      </div>
+      <div class="cnt">
+        <div class="conf-and-meetup__first-section__intro">
+          <img src="./img/confs-meetup/confs-meetup__first-section__intro.png" class="conf-and-meetup__first-section__intro__img" alt="intro">
+
+          <div class="conf-and-meetup__first-section__intro__title trans-first__section_title">Конференции <br> и митапы</div>
+
+          <ul class="conf-and-meetup__first-section__intro__desc">
+            <li class="trans-first__section_desc_1">Наши конференции и митапы позволяют нашей <br> команде быть всегда в тренде, как в разработке, так и в <br> бизнесе.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="conf-and-meetup__second-section">
+      <div class="cnt">
+        <div class="conf-and-meetup__second-section__list">
+          <div class="conf-and-meetup__second-section__list__icon">
+            <img class="sf-conf" src="img/brands/sf-conf__white.png" alt="sf-conf">
+          </div>
+
+          <div class="conf-and-meetup__second-section__list__cnt">
+            <div class="conf-and-meetup__second-section__list__cnt__title trans-first__section_cnt_1">SymfonyConf</div>
+
+            <div class="conf-and-meetup__second-section__list__cnt__desc trans-first__section_cnt_2">Ламповая конференция-митап, посвященная фреймворку symfony</div>
+
+            <ul class="conf-and-meetup__second-section__detail">
+              <li name="support" class="trans-first__section_cnt_3">При поддержке <br>symfoniacs</li>
+              <li name="techlead" class="trans-first__section_cnt_4">Тех. лиды и <br>ведущие <br>разработчики <br>наших проектов</li>
+              <li name="expert" class="trans-first__section_cnt_5"> Эксперты из <br> ключевых <br>компаний, <br>работающих с <br>symfony</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="conf-and-meetup__second-section__list" type="right">
+          <div class="conf-and-meetup__second-section__list__cnt">
+            <div class="conf-and-meetup__second-section__list__cnt__title" type="right">
+              mac
+            </div>
+
+            <div class="conf-and-meetup__second-section__list__cnt__desc trans-first__section_cnt_6" type="right">Крупнейшая и знаковая конференция в affiliate маркетинге в <br> России и Восточной Европе</div>
+
+            <ul class="conf-and-meetup__second-section__detail">
+              <li name="calendar" class="trans-first__section_detail_1">2 дня <br> 3400 участников <br>250 компаний</li>
+              <li name="techlead" class="trans-first__section_detail_2">30 докладов <br> 3 дискуссионных <br> панели</li>
+              <li name="party" class="trans-first__section_detail_3">Afterparty на 2000<br> человек в самом <br> большом клубе <br> Европы</li>
+            </ul>
+          </div>
+
+          <div class="conf-and-meetup__second-section__list__icon" type="right">
+            <img class="conf-mac-new" src="img/mac-new.png" width="225" height="151" alt="MAC">
+          </div>
+        </div>
+
+        <div class="conf-and-meetup__second-section__list" type="mac-affiliate">
+          <div class="conf-and-meetup__second-section__list__icon" type="mac-affiliate">
+            <img src="img/mac-new-full.png" width="199" height="159" alt="MAC" class="conf-mac-new__full">
+          </div>
+
+          <div class="conf-and-meetup__second-section__list__cnt">
+            <div class="conf-and-meetup__second-section__list__cnt__title trans-second__section_title">MAC Kyiv, Mac Delhi, MAC China и...</div>
+
+            <div class="conf-and-meetup__second-section__list__cnt__desc trans-second__section_desc">Мы организовываем MAC несколько лет подряд в Украине и в Индии</div>
+
+            <ul class="conf-and-meetup__second-section__detail">
+              <li name="calendar" type="mac-affiliate_calendar" class="trans-second__section_detail_1">1 день</li>
+              <li name="techlead" type="mac-affiliate" class="trans-second__section_detail_2">от 1500 до 5000 <br> участников</li>
+              <li name="mail-and-blank" class="trans-second__section_detail_3">60 компаний, <br> своя атмосфера</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="conf-and-meetup__second-section__list" type="right">
+          <div class="conf-and-meetup__second-section__list__cnt">
+            <div class="conf-and-meetup__second-section__list__cnt__title trans-second__section_cnt_1" type="right">Datsteam митапы</div>
+
+            <div class="conf-and-meetup__second-section__list__cnt__desc trans-second__section_cnt_2" type="right">Наш офис, а вместе с ним и наша веранда, является местом <br> встреч и проведения IT митапов</div>
+
+            <ul class="conf-and-meetup__second-section__detail">
+              <li name="calendar" class="trans-second__section_second_detail_1">6 митапов <br> в год</li>
+              <li name="techlead" type="dats" class="trans-second__section_second_detail_2">От IT разработки <br> до продуктов</li>
+              <li name="expert" type="dats_ex" class="trans-second__section_second_detail_3">Бесплатно, <br>интересно <br> и весело</li>
+            </ul>
+          </div>
+
+          <div class="conf-and-meetup__second-section__list__icon" type="dats">
+            <img src="img/icons/white-logo.svg" width="184" height="156" alt="sf-conf" class="conf-and-meetup__dats">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="cnt">
+        <div class="footer">
+          <nav class="navbar navbar-footer">
+            <a href="/products.html" class="navbar_item trans-footer__menu_1">про продукты</a>
+            <a href="/develop.html" class="navbar_item trans-footer__menu_2">про разработку</a>
+            <a href="/conf-and-meetup.html" class="navbar_item trans-footer__menu_3">конференции и митапы</a>
+            <a href="/career.html" class="navbar_item trans-footer__menu_4">карьера</a>
+            <a href="/about.html" class="navbar_item trans-footer__menu_5">о компании</a>
+          </nav>
+
+          <a href="/">
+            <img class="header__logo" src="/img/logo__turbid.png" alt="DatsTeam">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/script.min.js"></script>
+  <script src="./js/transcript_1.js"></script>
+
+
+
+</body></html>
