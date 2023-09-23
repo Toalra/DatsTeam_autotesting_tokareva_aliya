@@ -1,19 +1,17 @@
-<h1 aling="center">Проект автоматизации тестов для Dats Team </h1>
+<h1 align="center"> <img src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/logo.svg" wight="35" height="35"/>Проект автоматизации тестов для Dats Team </h1>
 <h3>Содержание</h3>
 <h3>Использованные инструменты</h3>
-
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/AllureTestOps.svg" wight="30" height="30"/></a>
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Allure_Report.svg" wight="30" height="30"/></a>
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/GitHub.svg" wight="30" height="30"/></a>
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Gradle.svg" wight="30" height="30"/></a>
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Intelij_IDEA.svg" wight="30" height="30"/></a>
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/JUnit5.svg" wight="30" height="30"/></a>
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Java.svg" wight="30" height="30"/></a>
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Jenkins.svg" wight="30" height="30"/></a>
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Selenide.svg" wight="30" height="30"/></a>
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Selenoid.svg" wight="30" height="30"/></a>
-<a href=""><img alright="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Telegram.svg" wight="30" height="30"/></a>
-
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/AllureTestOps.svg" wight="30" height="30"/></a>
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Allure_Report.svg" wight="30" height="30"/></a>
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/GitHub.svg" wight="30" height="30"/></a>
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Gradle.svg" wight="30" height="30"/></a>
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Intelij_IDEA.svg" wight="30" height="30"/></a>
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/JUnit5.svg" wight="30" height="30"/></a>
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Java.svg" wight="30" height="30"/></a>
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Jenkins.svg" wight="30" height="30"/></a>
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Selenide.svg" wight="30" height="30"/></a>
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Selenoid.svg" wight="30" height="30"/></a>
+<a href=""><img align="center" src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/Telegram.svg" wight="30" height="30"/></a>
 
 
 ---
