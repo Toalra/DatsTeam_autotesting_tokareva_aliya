@@ -1,6 +1,14 @@
 <h1 align="center"> Проект автоматизации тестов для Dats Team <img src="https://github.com/Toalra/HomeWork15/blob/master/media/logs/logo.svg" wight="35" height="35"/></h1>
 <h2>Содержание</h2>
-<h2 tabindex="-1" id="user-content-computer-использованный-стек-технологий" dir="auto">Использованные инструменты</h2>
+<li><a href="#-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B">Использованные инструменты</a></li>
+<li><a href="#-%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B8">Реализованные проверки</a></li>
+
+
+
+
+
+
+<h2 tabindex="-1" id="user-content-computer-использованный-стек-технологий" dir="auto">💻 Использованные инструменты</h2>
   <a class="heading-link" href="#computer-использованный-стек-технологий"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/AllureTestOps.svg"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/AllureTestOps.svg" wight="40" height="40"/></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/Allure_Report.svg"><img src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/Allure_Report.svg" wight="40" height="40"/></a>
@@ -29,13 +37,13 @@
 * Логи консоли браузера;
 * Видео с выполнением автотеста.
 
-<h2>Реализованные проверки</h2>
+<h2>🏁 Реализованные проверки</h2>
 
 * Проверка открытия верных страниц по разделам сайта
 * Проверка заполнения формы "Расскажите о себе"
 * Проверка открытия страницы `dats.games`
 
-<h2>Запуск автотестов</h2>
+<h2>▶️ Запуск автотестов</h2>
 <h3>Запуск автотестов из терминала</h3>
 При выполнении команды в терминале IntelliJ IDEA, тесты запустятся в удаленном браузере в `Selenoid`
 
@@ -90,7 +98,7 @@ main -DremoteUrl=${SELENOID_URL}
 После прогона их `Jenkins` в `Telegram` отправляется уведомление с кратким отчетом результатов пройденного тестирования.
 <img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/tgResults.png" wight="500" height="500"/>
 
-<h2>Видео  примером запуска</h2>
+<h2><img src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/Selenoid.svg" wight="30" height="30"/>Видео  примером запуска</h2>
 
 С помощью видео в `Allure Jenkins` можно увидеть прохождение автотеста 
 <img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/video/fillForm.gif" wight="500" height="500"/>
