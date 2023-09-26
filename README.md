@@ -78,9 +78,9 @@ main -DremoteUrl=${SELENOID_URL}
 * `REMOTE_BROWSER_URL`  – адрес удаленного сервера для запуска автотестов.
 
 <h2><img src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/Jenkins.svg" wight="30" height="30"/>  Сборка в Jenkins</h2>
-<a title="jenkinsReport"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/jenkinsReport.png" wight="500" height="500"/></a>
+<a title="jenkinsReport"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/jenkinsReport.png" wight="500" height="500"/></a>
 <h3>Overwies</h3>
-<a href=""><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/AllureReport.png" wight="500" height="500"/></a>
+<a href=""><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/AllureReport.png" wight="500" height="500"/></a>
 
 <h3>Результат выполнения теста</h3>
 <a title="allureResults"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/allureResults.png" wight=800" height="390"/></a>
