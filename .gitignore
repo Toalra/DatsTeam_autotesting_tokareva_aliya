@@ -7,6 +7,9 @@ git rm --cached notifications
 git rm --cached build
 settings.gradle
 .build
+notifications/allure-notifications-4.3.0.jar
+notifications/config.json
+notifications/draft.txt
 
 gradlew
 gradlew.bat
