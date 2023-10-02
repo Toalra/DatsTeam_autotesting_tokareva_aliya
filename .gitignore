@@ -2,12 +2,7 @@
 gradle/wrapper
 !**/src/main/**/build/
 !**/src/test/**/build/
-notifications/
-git rm --cached notifications/draft.txt
-git rm --cached notifications/config.json
-git rm --cached notifications/allure-notifications-4.3.0.jar
-
-git rm --cached build
+notifications
 settings.gradle
 .build
 
