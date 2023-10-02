@@ -4,6 +4,7 @@ gradle/wrapper
 !**/src/test/**/build/
 notifications
 settings.gradle
+build
 
 gradlew
 gradlew.bat
