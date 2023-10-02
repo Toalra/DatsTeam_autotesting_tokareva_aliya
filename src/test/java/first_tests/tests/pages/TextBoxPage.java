@@ -22,7 +22,7 @@ public class TextBoxPage {
 
     public TextBoxPage openPage() {
 
-        open("");
+        open("https://dats.team");
         return this;
 
     }
