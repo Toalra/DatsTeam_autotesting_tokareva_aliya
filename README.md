@@ -77,19 +77,23 @@ main -DremoteUrl=${SELENOID_URL}
 * `BASE_URL` – web-адрес тестируемого приложения.
 * `REMOTE_BROWSER_URL`  – адрес удаленного сервера для запуска автотестов.
 
-<h2><img src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/Jenkins.svg" wight="30" height="30"/>  Сборка в Jenkins</h2>
+<h2><img src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/Jenkins.svg" wight="30" height="30"/><a>Сборка в </a>
+  <a href="https://jenkins.autotests.cloud/job/dats.team_autotesting_tokareva_aliya"> Jenkins</a></h2>
 <a title="jenkinsReport"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/jenkinsReport.png" wight="500" height="500"/></a>
-<h3>Overwies</h3>
+<h3><a>Overwies в </a>
+<a href="https://jenkins.autotests.cloud/job/dats.team_autotesting_tokareva_aliya/43/allure/">Allure Report</a></h3>
 <a href=""><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/AllureReport.png" wight="500" height="500"/></a>
 
 <h3>Результат выполнения теста</h3>
 <a title="allureResults"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/allureResults.png" wight=800" height="390"/></a>
-<h2><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/AllureTestOps.svg" wight="30" height="30"/>  Интеграция с Allure TestOps </h2>
+<h2><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/AllureTestOps.svg" wight="30" height="30"/><a>Интеграция с </a>
+  <a href="https://allure.autotests.cloud/launch/30429/tree/485930?treeId=0">Allure TestOps </a></h2>
 
 Сборка имеет интеграцию `Jenkins` с `Allure TestOps`. Результат выполнения автотестов отображается в `Allure TestOps` на `Dashboard` в `Allure TestOps` отображена статистика пройденных тестов.
 <img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/testOpsReults.png" wight="900" height="550"/>
 
-<h2><img src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/Jira.svg" wight="30" height="30"/>  Интеграция с Jira</h2>
+<h2><img src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/Jira.svg" wight="30" height="30"/><a>Интеграция</a>
+  <a href="https://jira.autotests.cloud/browse/HOMEWORK-896">с Jira</a></h2>
 
 Выполнена интеграция `Allure TestOps` с `Jira`, в тикете отображается список автотестов и результаты их прогода.
 <img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/jiraResults.png" wight="900" height="500"/>
