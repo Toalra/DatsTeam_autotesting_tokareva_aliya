@@ -25,7 +25,7 @@
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/Jira.svg"><img src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/Jira.svg" wight="40" height="40"/></a>
 
 * Проект автотестов для компаниия Dats Team написан на языке `Java` с применением фреймворка для автотестирования `Selenide` и `JUnit 5`.
-* Для автоматической сборки автотестов был использован `Gradle`.
+* В качестве сборщика проекта использовался `Gradle`.
 * Во время прогона автотестов применялся сервер `Selenoid`.
 * Для реадизации удаленного запуска применялся `Jenkins` с формированием отчета в `Allure`.
 * Краткие отчеты с результатами тестирования отправлятся в `Telegram` с использованием бота.
