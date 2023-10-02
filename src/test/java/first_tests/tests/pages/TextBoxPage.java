@@ -52,12 +52,6 @@ public class TextBoxPage {
 
         return this;
     }
-    public TextBoxPage aboutGame() {
-
-        aboutGame.click();
-
-        return this;
-    }
     public TextBoxPage conferMeetups() {
 
         conferMeetups.click();
@@ -71,6 +65,13 @@ public class TextBoxPage {
     }
     public TextBoxPage aboutCompany() {
         aboutCompany.click();
+
+        return this;
+    }
+
+    public TextBoxPage aboutGame() {
+
+        aboutGame.click();
 
         return this;
     }
