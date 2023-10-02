@@ -27,13 +27,14 @@ public class datsTeamPageObjects extends TestBase {
             datsTeamPage.openPage()
                     .onRussia()
                     .aboutProdects()
+                    .aboutDevelop()
                     .conferMeetups()
-                    .aboutCareer()
                     .aboutCompany()
-                    .aboutGame()
+                    .aboutCareer()
                     .number("8912345678")
                     .telegram("@test_user")
-                    .setText("Меня зовут Алия, я-инженер-тестировщик");
+                    .setText("Меня зовут Алия, я-инженер-тестировщик")
+                    .aboutGame();
         });
         step("Check form of Career", () -> {
             datsTeamPage.checkFormOfCareer(number)
