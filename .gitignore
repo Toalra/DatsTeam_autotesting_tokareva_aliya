@@ -3,6 +3,7 @@ gradle/wrapper
 !**/src/main/**/build/
 !**/src/test/**/build/
 notifications
+git -rm --cache .notifications
 settings.gradle
 build
 
