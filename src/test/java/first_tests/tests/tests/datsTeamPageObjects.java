@@ -25,6 +25,7 @@ public class datsTeamPageObjects extends TestBase {
         //Open page
         step( "Open page and fill form of career", () -> {
             datsTeamPage.openPage()
+                    .onRussia()
                     .aboutProdects()
                     .aboutGame()
                     .conferMeetups()

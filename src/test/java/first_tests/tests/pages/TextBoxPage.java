@@ -8,6 +8,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class TextBoxPage {
     SelenideElement
+            onRussia = $(".choose-locale"),
             aboutProducts = $(".navbar-header").$(byText("про продукты")),
             aboutDevelop = $(".navbar-header").$(byText("про разработку")),
             aboutGame = $(".navbar-header").$(byText("про игры")),
@@ -29,6 +30,13 @@ public class TextBoxPage {
     public TextBoxPage removeBan() {
         executeJavaScript("$('#fixedban').remove()");
         executeJavaScript("$('footer').remove()");
+        return this;
+    }
+
+    public TextBoxPage onRussia() {
+
+        onRussia.click();
+
         return this;
     }
 
