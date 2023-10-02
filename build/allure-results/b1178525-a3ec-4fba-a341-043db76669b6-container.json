@@ -1,1 +1,0 @@
-{"uuid":"b1178525-a3ec-4fba-a341-043db76669b6","name":"OpenMarketWithGames","children":["0d42ac08-b639-4c10-9f53-e72c00546dd0"],"befores":[{"name":"openWeb","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1695322256076,"stop":1695322260571}],"afters":[],"start":1695322256029,"stop":1695322266075}

@@ -9,20 +9,20 @@ public class SystemPropertiesTests {
     @Test
     @Tag("property")
     void systemPropertiesOperaTest() {
-        String browser = System.getProperty("browser", "opera");
+        String browser = System.getProperty("browser", "chrome");
     }
+
     @Test
     @Tag("property")
     void systemBrowserSizeTest() {
         String browserSizes = System.getProperty("browserSize", "1920x1080");
         Configuration.browserSize = browserSizes;
-
     }
 
     @Test
     @Tag("property")
     void systemBrowserVersionTest() {
-        String browserVersion = System.getProperty("browserVersion", "61.0");
+        String browserVersion = System.getProperty("browserVersion", "100.0");
         Configuration.browserVersion = browserVersion;
     }
 }

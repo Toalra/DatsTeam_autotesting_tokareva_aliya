@@ -1,6 +1,0 @@
-[2023-09-18T19:43:37.616Z] [SEVERE] https://www.tinkoff.ru/api/front/eventea-beer/event - Failed to load resource: the server responded with a status of 400 ()
-[2023-09-18T19:43:37.813Z] [SEVERE] https://www.tinkoff.ru/api/users-navigation/api/authorization/validate - Failed to load resource: the server responded with a status of 401 ()
-[2023-09-18T19:43:38.728Z] [SEVERE] https://www.tinkoff.ru/api/front/eventea-beer/event - Failed to load resource: the server responded with a status of 400 ()
-[2023-09-18T19:43:38.748Z] [SEVERE] https://www.tinkoff.ru/api/users-navigation/api/authorization/validate - Failed to load resource: the server responded with a status of 401 ()
-[2023-09-18T19:43:39.574Z] [SEVERE] https://www.tinkoff.ru/api/front/eventea-beer/event - Failed to load resource: the server responded with a status of 400 ()
-[2023-09-18T19:43:40.179Z] [SEVERE] https://www.tinkoff.ru/api/users-navigation/api/authorization/validate - Failed to load resource: the server responded with a status of 401 ()

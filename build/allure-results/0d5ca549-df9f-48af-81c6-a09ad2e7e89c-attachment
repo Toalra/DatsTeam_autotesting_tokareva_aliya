@@ -1,7 +1,0 @@
-[2023-09-18T20:12:08.130Z] [SEVERE] https://www.tinkoff.ru/api/front/eventea-beer/event - Failed to load resource: the server responded with a status of 400 ()
-[2023-09-18T20:12:08.311Z] [SEVERE] https://www.tinkoff.ru/api/users-navigation/api/authorization/validate - Failed to load resource: the server responded with a status of 401 ()
-[2023-09-18T20:12:08.766Z] [SEVERE] https://www.tinkoff.ru/career/it/about/ 0 Error while trying to use the following icon from the Manifest: https://acdn.tinkoff.ru/params/common_front/resourses/icons/icon-144x144.png (Download error or resource isn't a valid image)
-[2023-09-18T20:12:09.085Z] [SEVERE] https://www.tinkoff.ru/api/front/eventea-beer/event - Failed to load resource: the server responded with a status of 400 ()
-[2023-09-18T20:12:09.170Z] [SEVERE] https://www.tinkoff.ru/api/users-navigation/api/authorization/validate - Failed to load resource: the server responded with a status of 401 ()
-[2023-09-18T20:12:10.375Z] [SEVERE] https://www.tinkoff.ru/api/front/eventea-beer/event - Failed to load resource: the server responded with a status of 400 ()
-[2023-09-18T20:12:10.434Z] [SEVERE] https://www.tinkoff.ru/api/users-navigation/api/authorization/validate - Failed to load resource: the server responded with a status of 401 ()

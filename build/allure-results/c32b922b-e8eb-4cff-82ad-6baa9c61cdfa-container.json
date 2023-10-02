@@ -1,1 +1,0 @@
-{"uuid":"c32b922b-e8eb-4cff-82ad-6baa9c61cdfa","name":"OpenDevopsSevice","children":["c58584ac-3f2d-4ad4-8267-96e81e25470c"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1695155913251,"stop":1695155913261}],"afters":[],"start":1695155913223,"stop":1695155926080}
