@@ -22,7 +22,7 @@ public class TextBoxPage {
 
     public TextBoxPage openPage() {
 
-        open("/automation-practice-form");
+        open("");
         return this;
 
     }
