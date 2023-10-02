@@ -2,8 +2,8 @@
 gradle/wrapper
 !**/src/main/**/build/
 !**/src/test/**/build/
-.notifications
-git -rm --cache .notifications
+.notifications/
+git rm -r --cached .notifications
 settings.gradle
 .build
 
