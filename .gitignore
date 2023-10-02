@@ -2,10 +2,10 @@
 gradle/wrapper
 !**/src/main/**/build/
 !**/src/test/**/build/
-notifications
+.notifications
 git -rm --cache .notifications
 settings.gradle
-build
+.build
 
 gradlew
 gradlew.bat
