@@ -39,7 +39,5 @@ public class datsTeamPageObjects extends TestBase {
                     .checkFormOfCareer(telegram)
                     .checkFormOfCareer(setText);
         });
-
     }
-
 }
