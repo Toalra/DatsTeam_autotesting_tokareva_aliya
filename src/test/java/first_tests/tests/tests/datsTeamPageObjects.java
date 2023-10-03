@@ -30,7 +30,7 @@ public class datsTeamPageObjects extends TestBase {
             datsTeamPage.checkAboutProducts("Always on trend")
                     .checkAboutDevelop("About development")
                     .checkAboutMeetups("Conferences and meetups")
-                    .checkAboutCompany("dats.team company");
+                    .checkAboutCompany("dats.team");
         });
     }
 }
