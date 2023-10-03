@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class TextBoxPage {
     SelenideElement
             onRussia = $(".choose-locale"),
-            translateEng = $(".translate-icon-en "),
+            translateRus = $(".translate-icon-ru"),
             aboutProducts = $(".navbar-header").$(byText("про продукты")),
             aboutDevelop = $(".navbar-header").$(byText("про разработку")),
             conferMeetups = $(".navbar-header").$(byText("конференции и митапы")),
@@ -34,7 +34,7 @@ public class TextBoxPage {
     }
 
     public TextBoxPage onRussia() {
-        if(onRussia == translateEng) {
+        if(onRussia == translateRus) {
             onRussia.click();
         }
 
