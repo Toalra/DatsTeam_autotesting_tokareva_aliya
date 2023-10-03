@@ -1,6 +1,5 @@
 package first_tests.tests.tests;
 
-import com.github.javafaker.Faker;
 import first_tests.tests.pages.TextBoxPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -24,7 +23,7 @@ public class datsTeamPageObjects extends TestBase {
                     .conferMeetups()
                     .aboutCompany();
         });
-        step("Check form of Career", () -> {
+        step("Check pages", () -> {
             datsTeamPage.checkAboutProducts("Всегда в тренде")
                     .checkAboutDevelop("Про разработку")
                     .checkAboutMeetups("Конференции и митапы")
