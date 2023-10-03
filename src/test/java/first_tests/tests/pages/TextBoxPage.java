@@ -20,23 +20,15 @@ public class TextBoxPage {
             setText = $("name='[text]'"),
             formCareer = $(".career__form");
 
-
     public TextBoxPage openPage() {
 
         open("https://dats.team");
         return this;
 
     }
-    public TextBoxPage removeBan() {
-        executeJavaScript("$('#fixedban').remove()");
-        executeJavaScript("$('footer').remove()");
-        return this;
-    }
 
     public TextBoxPage onRussia() {
-        if(onRussia == translateRus) {
-            onRussia.click();
-        }
+        onRussia.click();
 
         return this;
     }
