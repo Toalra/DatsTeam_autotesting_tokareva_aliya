@@ -14,7 +14,7 @@ public class datsTeamFakerPageObject {
 
     @Test
     @Tag("test_2")
-            void fillFormOfCareer(){
+    void fillFormOfCareer(){
 
         Faker faker = new Faker(new Locale("en-US"));
         String
@@ -24,7 +24,6 @@ public class datsTeamFakerPageObject {
 
         step( "Open page and fill form of career", () -> {
             fillFormOfCareer.openPage()
-
                     .setNumber(number)
                     .setTelegram(telegram)
                     .setTextCandidate(setText);

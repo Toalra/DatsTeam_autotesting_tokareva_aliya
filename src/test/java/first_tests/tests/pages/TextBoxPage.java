@@ -13,8 +13,8 @@ public class TextBoxPage {
             aboutProducts = $(".navbar-header").$(byText("про продукты")),
             aboutDevelop = $(".navbar-header").$(byText("про разработку")),
             conferMeetups = $(".navbar-header").$(byText("конференции и митапы")),
-            aboutCareer = $(".navbar-header").$(byText("карьера")),
             aboutCompany = $(".navbar-header").$(byText("о компании")),
+            aboutCareer = $(".navbar-header").$(byText("карьера")),
             number = $("type='[number]'"),
             telegram = $("type='[telegram]'"),
             setText = $("name='[text]'"),
@@ -51,6 +51,12 @@ public class TextBoxPage {
 
         return this;
     }
+
+    public TextBoxPage aboutCompany() {
+        aboutCompany.click();
+
+        return this;
+    }
     public TextBoxPage aboutCareer() {
         aboutCareer.click();
 
@@ -69,12 +75,6 @@ public class TextBoxPage {
     }
     public TextBoxPage setTextCandidate(String value) {
         setText.setValue(value);
-
-        return this;
-    }
-
-    public TextBoxPage aboutCompany() {
-        aboutCompany.click();
 
         return this;
     }

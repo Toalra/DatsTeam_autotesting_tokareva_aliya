@@ -16,8 +16,6 @@ public class datsTeamPageObjects extends TestBase {
     @Tag("test_1")
     void fillFormTest() {
 
-
-        //Open page
         step( "Open page and fill form of career", () -> {
             datsTeamPage.openPage()
                     .onRussia()
