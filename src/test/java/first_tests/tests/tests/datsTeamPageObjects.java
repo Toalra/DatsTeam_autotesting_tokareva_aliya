@@ -27,10 +27,10 @@ public class datsTeamPageObjects extends TestBase {
                     .aboutCompany();
         });
         step("Check form of Career", () -> {
-            datsTeamPage.checkAboutProducts("Always on trend")
-                    .checkAboutDevelop("About development")
-                    .checkAboutMeetups("Conferences and meetups")
-                    .checkAboutCompany("dats.team");
+            datsTeamPage.checkAboutProducts("Всегда в тренде")
+                    .checkAboutDevelop("Про разработку")
+                    .checkAboutMeetups("Конференции и митапы")
+                    .checkAboutCompany("компания dats.team");
         });
     }
 }
