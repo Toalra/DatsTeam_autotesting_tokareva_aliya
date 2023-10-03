@@ -11,7 +11,6 @@ public class TextBoxPage {
             onRussia = $(".choose-locale"),
             aboutProducts = $(".navbar-header").$(byText("про продукты")),
             aboutDevelop = $(".navbar-header").$(byText("про разработку")),
-            aboutGame = $(".navbar-header").$(byText("про игры")),
             conferMeetups = $(".navbar-header").$(byText("конференции и митапы")),
             aboutCareer = $(".navbar-header").$(byText("карьера")),
             aboutCompany = $(".navbar-header").$(byText("о компании")),
@@ -58,40 +57,30 @@ public class TextBoxPage {
 
         return this;
     }
-    public TextBoxPage aboutCareer() {
+    public TextBoxPage aboutCareer(String value) {
         aboutCareer.click();
 
         return this;
     }
-    public TextBoxPage aboutCompany() {
-        aboutCompany.click();
 
-        return this;
-    }
-
-    public TextBoxPage aboutGame() {
-
-        aboutGame.click();
-
-        return this;
-    }
-
-    public TextBoxPage number(String value) {
-
+    public TextBoxPage setNumber(String value) {
         number.setValue(value);
 
         return this;
     }
-
-    public TextBoxPage telegram(String value) {
-
+    public TextBoxPage setTelegram(String value) {
         telegram.setValue(value);
 
         return this;
     }
-    public TextBoxPage setText(String value) {
-
+    public TextBoxPage setTextCandidate(String value) {
         setText.setValue(value);
+
+        return this;
+    }
+
+    public TextBoxPage aboutCompany() {
+        aboutCompany.click();
 
         return this;
     }
@@ -103,10 +92,34 @@ public class TextBoxPage {
     }
 
     //Checks
-    public TextBoxPage checkFormOfCareer(String value) {
+    public TextBoxPage checkAboutProducts(String value) {
+        $(".trans-products__advantages_title").shouldHave(text(value));
 
+        return this;
+    }
+    public TextBoxPage checkAboutDevelop(String value) {
+        $(".trans_develop__first-section__intro__title").shouldHave(text(value));
+
+        return this;
+    }
+    public TextBoxPage checkAboutMeetups(String value) {
+        $(".trans-first__section_title").shouldHave(text(value));
+
+        return this;
+    }
+    public TextBoxPage checkAboutCompany(String value) {
+        $(".trans-first__section_title").shouldHave(text(value));
+
+        return this;
+    }
+
+    public TextBoxPage checkFormOfCareer(String value) {
         $(".career__form").shouldHave(text(value));
 
         return this;
     }
+
+
+
+
 }

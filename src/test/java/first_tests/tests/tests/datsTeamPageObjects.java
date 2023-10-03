@@ -16,11 +16,6 @@ public class datsTeamPageObjects extends TestBase {
     @Tag("test_1")
     void fillFormTest() {
 
-        Faker faker = new Faker(new Locale("en-US"));
-        String
-                number = faker.phoneNumber().subscriberNumber(10),
-                telegram = faker.name().firstName(),
-                setText = faker.lebowski().character();
 
         //Open page
         step( "Open page and fill form of career", () -> {
@@ -29,17 +24,13 @@ public class datsTeamPageObjects extends TestBase {
                     .aboutProdects()
                     .aboutDevelop()
                     .conferMeetups()
-                    .aboutCompany()
-                    .aboutCareer()
-                    .number("8912345678")
-                    .telegram("@test_user")
-                    .setText("Меня зовут Алия, я-инженер-тестировщик")
-                    .aboutGame();
+                    .aboutCompany();
         });
         step("Check form of Career", () -> {
-            datsTeamPage.checkFormOfCareer(number)
-                    .checkFormOfCareer(telegram)
-                    .checkFormOfCareer(setText);
+            datsTeamPage.checkAboutProducts("Always on trend")
+                    .checkAboutDevelop("About development")
+                    .checkAboutMeetups("Conferences and meetups")
+                    .checkAboutCompany("dats.team company");
         });
     }
 }
