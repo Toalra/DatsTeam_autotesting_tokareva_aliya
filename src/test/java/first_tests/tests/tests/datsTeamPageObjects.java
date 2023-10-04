@@ -4,8 +4,6 @@ import first_tests.tests.pages.TextBoxPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-import java.util.Locale;
-
 import static io.qameta.allure.Allure.step;
 
 public class datsTeamPageObjects extends TestBase {
@@ -17,7 +15,7 @@ public class datsTeamPageObjects extends TestBase {
 
         step( "Open page and fill form of career", () -> {
             datsTeamPage.openPage()
-                    .onRussia()
+                    //.onRussia()
                     .aboutProdects()
                     .aboutDevelop()
                     .conferMeetups()

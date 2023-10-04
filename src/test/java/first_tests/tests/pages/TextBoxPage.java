@@ -13,9 +13,9 @@ public class TextBoxPage {
             aboutDevelop = $(".header").$(byText("про разработку")),
             conferMeetups = $(".header").$(byText("конференции и митапы")),
             aboutCompany = $(".header").$(byText("о компании")),
-            aboutCareer = $(".header").$(byText("карьера")),
-            number = $("type=['number']"),
-            telegram = $("type=['telegram']"),
+            aboutCareer = $(".navbar_item ").$(byText("карьера")),
+            number = $("name=['number']"),
+            telegram = $("name=['telegram']"),
             setText = $("name=['text']"),
             formCareer = $(".career__form");
 
