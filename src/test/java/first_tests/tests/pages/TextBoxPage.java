@@ -9,15 +9,14 @@ import static com.codeborne.selenide.Selenide.*;
 public class TextBoxPage {
     SelenideElement
             onRussia = $(".choose-locale"),
-            translateRus = $(".translate-icon-ru"),
-            aboutProducts = $(".navbar-header").$(byText("про продукты")),
-            aboutDevelop = $(".navbar-header").$(byText("про разработку")),
-            conferMeetups = $(".navbar-header").$(byText("конференции и митапы")),
-            aboutCompany = $(".navbar-header").$(byText("о компании")),
-            aboutCareer = $(".navbar-header").$(byText("карьера")),
-            number = $("type='[number]'"),
-            telegram = $("type='[telegram]'"),
-            setText = $("name='[text]'"),
+            aboutProducts = $(".header").$(byText("про продукты")),
+            aboutDevelop = $(".header").$(byText("про разработку")),
+            conferMeetups = $(".header").$(byText("конференции и митапы")),
+            aboutCompany = $(".header").$(byText("о компании")),
+            aboutCareer = $(".header").$(byText("карьера")),
+            number = $("type=['number']"),
+            telegram = $("type=['telegram']"),
+            setText = $("name=['text']"),
             formCareer = $(".career__form");
 
     public TextBoxPage openPage() {
