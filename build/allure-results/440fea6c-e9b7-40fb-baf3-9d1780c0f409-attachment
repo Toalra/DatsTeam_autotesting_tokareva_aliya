@@ -1,0 +1,2 @@
+[2023-10-04T17:55:26.444Z] [WARNING] chrome-error://chromewebdata/ 6582:1640 "crbug/1173575, non-JS module files deprecated."
+[2023-10-04T17:55:40.538Z] [SEVERE] https://dats.team/favicon.ico - Failed to load resource: the server responded with a status of 404 ()
