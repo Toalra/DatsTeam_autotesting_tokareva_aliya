@@ -79,7 +79,7 @@ public class TextBoxPage {
 
     //Checks
     public TextBoxPage checkAboutProducts(String value) {
-        $(".products__second-section__advantages").shouldHave(text(value));
+        $(".cnt").shouldHave(text(value));
 
         return this;
     }
