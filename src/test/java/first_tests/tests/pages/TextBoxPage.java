@@ -17,8 +17,7 @@ public class TextBoxPage {
             number = $("name=['number']"),
             telegram = $("name=['telegram']"),
             setText = $("name=['text']"),
-            formCareer = $(".career__form"),
-            element = $(".vacancy__about");
+            formCareer = $(".career__form");
 
     public TextBoxPage openPage() {
 
@@ -26,11 +25,11 @@ public class TextBoxPage {
         return this;
     }
 
-//    public TextBoxPage onRussia() {
-//        onRussia.click();
-//
-//        return this;
-//    }
+    public TextBoxPage onRussia() {
+        onRussia.click();
+
+        return this;
+    }
 
     public TextBoxPage aboutProdects() {
         aboutProducts.click();
