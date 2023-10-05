@@ -23,14 +23,13 @@ public class TextBoxPage {
 
         open("https://dats.team");
         return this;
-
     }
 
-    public TextBoxPage onRussia() {
-        onRussia.click();
-
-        return this;
-    }
+//    public TextBoxPage onRussia() {
+//        onRussia.click();
+//
+//        return this;
+//    }
 
     public TextBoxPage aboutProdects() {
 
