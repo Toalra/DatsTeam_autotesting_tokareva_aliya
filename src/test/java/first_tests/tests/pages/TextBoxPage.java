@@ -77,12 +77,6 @@ public class TextBoxPage {
         return this;
     }
 
-    public TextBoxPage checkOverResults(String value, String valueCheck) {
-        formCareer.$(byText(value)).parent().shouldHave(text(valueCheck));
-
-        return this;
-    }
-
     //Checks
     public TextBoxPage checkAboutProducts(String value) {
         $(".products__second-section__advantages").shouldHave(text(value));
@@ -110,8 +104,4 @@ public class TextBoxPage {
 
         return this;
     }
-
-
-
-
 }
