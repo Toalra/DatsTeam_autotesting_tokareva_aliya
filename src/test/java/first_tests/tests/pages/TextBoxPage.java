@@ -85,7 +85,7 @@ public class TextBoxPage {
 
     //Checks
     public TextBoxPage checkAboutProducts(String value) {
-        $("name=['performances']").shouldHave(text(value));
+        $(".products__second-section__advantages").shouldHave(text(value));
 
         return this;
     }
