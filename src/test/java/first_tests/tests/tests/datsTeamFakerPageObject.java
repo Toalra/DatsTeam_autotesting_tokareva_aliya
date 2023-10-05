@@ -24,6 +24,7 @@ public class datsTeamFakerPageObject {
 
         step( "Open page and fill form of career", () -> {
             fillFormOfCareer.openPage()
+                    .aboutCareer()
                     .setNumber(number)
                     .setTelegram(telegram)
                     .setTextCandidate(setText);

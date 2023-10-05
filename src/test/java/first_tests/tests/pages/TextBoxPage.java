@@ -13,11 +13,12 @@ public class TextBoxPage {
             aboutDevelop = $(".header").$(byText("про разработку")),
             conferMeetups = $(".header").$(byText("конференции и митапы")),
             aboutCompany = $(".header").$(byText("о компании")),
-            aboutCareer = $(".navbar_item ").$(byText("карьера")),
+            aboutCareer = $(".header").$(byText("карьера")),
             number = $("name=['number']"),
             telegram = $("name=['telegram']"),
             setText = $("name=['text']"),
-            formCareer = $(".career__form");
+            formCareer = $(".career__form"),
+            element = $(".vacancy__about");
 
     public TextBoxPage openPage() {
 
@@ -32,19 +33,16 @@ public class TextBoxPage {
 //    }
 
     public TextBoxPage aboutProdects() {
-
         aboutProducts.click();
 
         return this;
     }
     public TextBoxPage aboutDevelop() {
-
         aboutDevelop.click();
 
         return this;
     }
     public TextBoxPage conferMeetups() {
-
         conferMeetups.click();
 
         return this;
@@ -62,16 +60,19 @@ public class TextBoxPage {
     }
 
     public TextBoxPage setNumber(String value) {
+        number.click();
         number.setValue(value);
 
         return this;
     }
     public TextBoxPage setTelegram(String value) {
+        telegram.click();
         telegram.setValue(value);
 
         return this;
     }
     public TextBoxPage setTextCandidate(String value) {
+        setText.click();
         setText.setValue(value);
 
         return this;
