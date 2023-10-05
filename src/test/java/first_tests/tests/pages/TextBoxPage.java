@@ -79,12 +79,12 @@ public class TextBoxPage {
 
     //Checks
     public TextBoxPage checkAboutProducts(String value) {
-        $(".cnt").shouldHave(text(value));
+        $(".trans-products__advantages_title").shouldHave(text(value));
 
         return this;
     }
     public TextBoxPage checkAboutDevelop(String value) {
-        $(".trans_develop__first-section__intro__title").shouldHave(text(value));
+        $(".develop__first-section__intro__desc").shouldHave(text(value));
 
         return this;
     }
@@ -98,9 +98,8 @@ public class TextBoxPage {
 
         return this;
     }
-
     public TextBoxPage checkFormOfCareer(String value) {
-        $(".career__form").shouldHave(text(value));
+        formCareer.shouldHave(text(value));
 
         return this;
     }

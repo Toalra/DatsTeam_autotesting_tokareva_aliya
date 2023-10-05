@@ -23,7 +23,7 @@ public class datsTeamPageObjects extends TestBase {
         });
         step("Check pages", () -> {
             datsTeamPage.checkAboutProducts("Всегда в тренде")
-                    .checkAboutDevelop("Про  разработку")
+                    .checkAboutDevelop("Наш отдел разработки начал формироваться в 2013-м")
                     .checkAboutMeetups("Конференции и митапы")
                     .checkAboutCompany("компания");
         });
