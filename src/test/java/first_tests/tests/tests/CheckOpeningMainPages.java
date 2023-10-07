@@ -15,7 +15,7 @@ public class CheckOpeningMainPages extends TestBase {
 
         step( "Open page and fill form of career", () -> {
             datsTeamPage.openPage()
-                    //.onRussia()
+                    .onRussia()
                     .aboutProdects()
                     .aboutDevelop()
                     .conferMeetups()
