@@ -13,9 +13,8 @@ public class CheckOpeningMainPages extends TestBase {
     @Tag("test_1")
     void checkPagesTest() {
 
-        step( "Open page and fill form of career", () -> {
+        step( "Open pages", () -> {
             datsTeamPage.openPage()
-                    .onRussia()
                     .aboutProdects()
                     .aboutDevelop()
                     .conferMeetups()
@@ -23,7 +22,7 @@ public class CheckOpeningMainPages extends TestBase {
         });
         step("Check pages", () -> {
             datsTeamPage.checkAboutProducts("Всегда в тренде")
-                    .checkAboutDevelop("Наш отдел разработки начал формироваться в 2013-м")
+                    .checkAboutDevelop("Про разработку")
                     .checkAboutMeetups("Конференции и митапы")
                     .checkAboutCompany("компания");
         });

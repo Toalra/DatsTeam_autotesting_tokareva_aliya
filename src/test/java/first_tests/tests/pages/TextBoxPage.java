@@ -8,6 +8,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class TextBoxPage {
     SelenideElement
+            moveLanguage = $(".translate-icon-ru"),
             onRussia = $(".choose-locale"),
             aboutProducts = $(".header").$(byText("про продукты")),
             aboutDevelop = $(".header").$(byText("про разработку")),
@@ -27,7 +28,9 @@ public class TextBoxPage {
     }
 
     public TextBoxPage onRussia() {
-        onRussia.click();
+        if(onRussia == moveLanguage) {
+            onRussia.click();
+        }
 
         return this;
     }
@@ -37,6 +40,7 @@ public class TextBoxPage {
 
         return this;
     }
+
     public TextBoxPage aboutDevelop() {
         aboutDevelop.click();
 
@@ -85,17 +89,19 @@ public class TextBoxPage {
 
     //Checks
     public TextBoxPage checkAboutProducts(String value) {
-        $(".trans-products__advantages_title").shouldHave(text(value));
+        $("section[class='trans-products__advantages_title']").shouldHave(text(value));
 
         return this;
     }
     public TextBoxPage checkAboutDevelop(String value) {
-        $(".develop__first-section__intro__desc").shouldHave(text(value));
+        $("section['.develop__first-section']")
+                .$(".develop__first-section__intro")
+                .$(".develop__first-section__intro__title").shouldHave(text(value));
 
         return this;
     }
     public TextBoxPage checkAboutMeetups(String value) {
-        $(".trans-first__section_title").shouldHave(text(value));
+        $(".develop__second-section__title").shouldHave(text(value));
 
         return this;
     }
