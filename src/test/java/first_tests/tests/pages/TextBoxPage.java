@@ -106,7 +106,7 @@ public class TextBoxPage {
         return this;
     }
     public TextBoxPage checkAboutCompany(String value) {
-        $(".trans-first__section_title").shouldHave(text(value));
+        $("section['.about__first-section']").$(".trans-first__section_title").shouldHave(text(value));
 
         return this;
     }

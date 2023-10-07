@@ -24,7 +24,7 @@ public class CheckOpeningMainPages extends TestBase {
             datsTeamPage.checkAboutProducts("Всегда в тренде")
                     .checkAboutDevelop("Про разработку")
                     .checkAboutMeetups("Конференции и митапы")
-                    .checkAboutCompany("компания");
+                    .checkAboutCompany("dats.team");
         });
     }
 }
