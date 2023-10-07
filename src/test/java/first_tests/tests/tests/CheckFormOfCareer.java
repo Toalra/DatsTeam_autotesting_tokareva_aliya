@@ -9,12 +9,12 @@ import java.util.Locale;
 
 import static io.qameta.allure.Allure.step;
 
-public class datsTeamFakerPageObject {
+public class CheckFormOfCareer {
     TextBoxPage fillFormOfCareer = new TextBoxPage();
 
     @Test
     @Tag("test_2")
-    void fillFormOfCareer(){
+    void fillFormOfCareerTest(){
 
         Faker faker = new Faker(new Locale("en-US"));
         String
@@ -25,14 +25,15 @@ public class datsTeamFakerPageObject {
         step( "Open page and fill form of career", () -> {
             fillFormOfCareer.openPage()
                     .aboutCareer()
+                    .element()
                     .setNumber(number)
                     .setTelegram(telegram)
                     .setTextCandidate(setText);
         });
         step("Check form of Career", () -> {
-            fillFormOfCareer.checkFormOfCareer(number)
-                    .checkFormOfCareer(telegram)
-                    .checkFormOfCareer(setText);
+            fillFormOfCareer.checkTextOfNumberTest(number)
+                    .checkTextOfTelegramTest(telegram)
+                    .checkTextOfAboutEmployeeTest(setText);
         });
 
     }

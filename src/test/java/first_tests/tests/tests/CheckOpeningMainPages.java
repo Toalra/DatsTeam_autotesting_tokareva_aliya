@@ -6,16 +6,16 @@ import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
-public class datsTeamPageObjects extends TestBase {
+public class CheckOpeningMainPages extends TestBase {
     TextBoxPage datsTeamPage = new TextBoxPage();
 
     @Test
     @Tag("test_1")
-    void fillFormTest() {
+    void checkPagesTest() {
 
         step( "Open page and fill form of career", () -> {
             datsTeamPage.openPage()
-                    .onRussia()
+                    //.onRussia()
                     .aboutProdects()
                     .aboutDevelop()
                     .conferMeetups()

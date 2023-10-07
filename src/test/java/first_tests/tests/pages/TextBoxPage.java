@@ -14,10 +14,11 @@ public class TextBoxPage {
             conferMeetups = $(".header").$(byText("конференции и митапы")),
             aboutCompany = $(".header").$(byText("о компании")),
             aboutCareer = $(".header").$(byText("карьера")),
-            number = $("name=['number']"),
-            telegram = $("name=['telegram']"),
-            setText = $("name=['text']"),
-            formCareer = $(".career__form");
+            number = $("#form-contact-1").$("input[name='phone']"),
+            telegram = $("#form-contact-1").$("input[name='telegram']"),
+            setText = $("#form-contact-1").$("textarea[name='text']"),
+            formCareer = $("#form-contact-1").$(".career__form"),
+            element = $("#productManager");
 
     public TextBoxPage openPage() {
 
@@ -58,8 +59,13 @@ public class TextBoxPage {
         return this;
     }
 
+    public TextBoxPage element() {
+        element.scrollTo();
+        return this;
+    }
+
     public TextBoxPage setNumber(String value) {
-        number.click();
+        number.doubleClick();
         number.setValue(value);
 
         return this;
@@ -98,8 +104,18 @@ public class TextBoxPage {
 
         return this;
     }
-    public TextBoxPage checkFormOfCareer(String value) {
-        formCareer.shouldHave(text(value));
+    public TextBoxPage checkTextOfNumberTest(String value) {
+        number.shouldHave(text(value));
+
+        return this;
+    }
+    public TextBoxPage checkTextOfTelegramTest(String value) {
+        telegram.shouldHave(text(value));
+
+        return this;
+    }
+    public TextBoxPage checkTextOfAboutEmployeeTest(String value) {
+        setText.shouldHave(text(value));
 
         return this;
     }
