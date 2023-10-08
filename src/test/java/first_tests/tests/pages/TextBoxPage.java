@@ -28,9 +28,9 @@ public class TextBoxPage {
     }
 
     public TextBoxPage onRussia() {
-        if(onRussia == moveLanguage) {
+      //  if(onRussia == moveLanguage) {
             onRussia.click();
-        }
+       // }
 
         return this;
     }
