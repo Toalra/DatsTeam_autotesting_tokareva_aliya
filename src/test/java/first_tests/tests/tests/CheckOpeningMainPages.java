@@ -22,7 +22,9 @@ public class CheckOpeningMainPages extends TestBase {
                     .aboutCompany();
         });
         step("Check pages", () -> {
-            datsTeamPage.checkAboutProducts("Всегда в тренде")
+            datsTeamPage.checkAboutProducts("\n" +
+                            "                    Здесь и сейчас\n" +
+                            "                ")
                     .checkAboutDevelop("Про разработку")
                     .checkAboutMeetups("Конференции и митапы")
                     .checkAboutCompany("32");
