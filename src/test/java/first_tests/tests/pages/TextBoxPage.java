@@ -33,7 +33,7 @@ public class TextBoxPage {
         return this;
     }
 
-    public TextBoxPage aboutProdects() {
+    public TextBoxPage aboutProducts() {
         aboutProducts.click();
 
         return this;
