@@ -87,7 +87,8 @@ public class TextBoxPage {
 
     //Checks
     public TextBoxPage checkAboutProducts(String value) {
-        $("ul['.about__first-section__achievements']").$("li[name='countries']")
+        $("ul['.products__second-section__advantages']").$("li[name='performances']")
+                .$(".products__second-section__advantages__title")
                 .shouldHave(text(value));
 
         return this;
@@ -105,8 +106,8 @@ public class TextBoxPage {
         return this;
     }
     public TextBoxPage checkAboutCompany(String value) {
-        $("section['.about__first-section']")
-                .$(".trans-first__section_title").shouldHave(text(value));
+        $("ul['.about__first-section__achievements']").$("li[name='countries']")
+                .shouldHave(text(value));
 
         return this;
     }
