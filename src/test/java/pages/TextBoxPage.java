@@ -9,11 +9,10 @@ import static com.codeborne.selenide.Selenide.*;
 public class TextBoxPage {
     SelenideElement
             onRussia = $(".choose-locale"),
-            aboutProducts = $(".header").$(byText("про продукты")),
-            aboutDevelop = $(".header").$(byText("про разработку")),
-            conferMeetups = $(".header").$(byText("конференции и митапы")),
-            aboutCompany = $(".header").$(byText("о компании")),
-            aboutCareer = $(".header").$(byText("карьера"));
+            aboutProducts = $(".navbar-header").$(byText("про продукты")),
+            aboutDevelop = $(".navbar-header").$(byText("про разработку")),
+            conferMeetups = $(".navbar-header").$(byText("конференции и митапы")),
+            aboutCompany = $(".navbar-header").$(byText("о компании"));
 
     public TextBoxPage openPage() {
 
@@ -22,8 +21,7 @@ public class TextBoxPage {
     }
 
     public TextBoxPage onRussia() {
-            onRussia.click();
-
+        onRussia.click();
 
         return this;
     }
@@ -47,11 +45,6 @@ public class TextBoxPage {
 
     public TextBoxPage aboutCompany() {
         aboutCompany.click();
-
-        return this;
-    }
-    public TextBoxPage aboutCareer() {
-        aboutCareer.click();
 
         return this;
     }
