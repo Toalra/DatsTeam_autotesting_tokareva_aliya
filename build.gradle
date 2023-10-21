@@ -27,12 +27,14 @@ allure {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
-    testImplementation 'org.slf4j:slf4j-simple:2.0.8'
-    testImplementation 'io.github.bonigarcia:webdrivermanager:5.5.2'
-    testImplementation 'com.codeborne:selenide:6.17.2'
-    testImplementation 'com.github.javafaker:javafaker:1.0.2'
-    testImplementation "io.qameta.allure:allure-selenide:$allureVersion"
+    testImplementation (
+            "org.junit.jupiter:junit-jupiter:5.10.0",
+            "org.slf4j:slf4j-simple:2.0.8",
+            "io.github.bonigarcia:webdrivermanager:5.5.3",
+            "com.codeborne:selenide:6.17.1",
+            "com.github.javafaker:javafaker:1.0.2",
+            "io.qameta.allure:allure-selenide:$allureVersion"
+    )
 }
 
 tasks.withType(JavaCompile) {
@@ -55,6 +57,6 @@ test {
 task first_test(type: Test) {
     useJUnitPlatform {
         includeTags("test_1")
-        includeTags("test_2")
+        //includeTags("test_2")
     }
 }

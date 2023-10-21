@@ -24,7 +24,7 @@ public class FormOfCareer {
 
         step( "Open page and fill form of career", () -> {
             fillFormOfCareer.openPage()
-                    .onRussia()
+                   // .onRussia()
                     .aboutCareer()
                     .element()
                     .setNumber(number)

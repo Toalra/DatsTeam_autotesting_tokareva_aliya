@@ -8,11 +8,12 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class TextBoxPage {
     SelenideElement
-            onRussia = $(".choose-locale"),
-            aboutProducts = $(".navbar-header").$(byText("про продукты")),
-            aboutDevelop = $(".navbar-header").$(byText("про разработку")),
-            conferMeetups = $(".navbar-header").$(byText("конференции и митапы")),
-            aboutCompany = $(".navbar-header").$(byText("о компании"));
+    //        onRussia = $(".choose-locale"),
+            aboutProducts = $("a[href='/products.html']"),
+            aboutDevelop = $("a[href='/develop.html']"),
+            conferMeetups = $("a[href='/conf-and-meetup.html']"),
+            aboutCompany = $("a[href='/about.html']"),
+            element_200 = $(".develop__second-section__title");
 
     public TextBoxPage openPage() {
 
@@ -20,11 +21,11 @@ public class TextBoxPage {
         return this;
     }
 
-    public TextBoxPage onRussia() {
-        onRussia.click();
-
-        return this;
-    }
+//    public TextBoxPage onRussia() {
+//        onRussia.click();
+//
+//        return this;
+//    }
 
     public TextBoxPage aboutProducts() {
         aboutProducts.click();
@@ -37,6 +38,13 @@ public class TextBoxPage {
 
         return this;
     }
+
+    public TextBoxPage element_200() {
+        element_200.scrollTo();
+
+        return this;
+    }
+
     public TextBoxPage conferMeetups() {
         conferMeetups.click();
 
@@ -51,16 +59,14 @@ public class TextBoxPage {
 
     //Checks
     public TextBoxPage checkAboutProducts(String value) {
-        $("li[name='clock']")
-                .$(".products__second-section__advantages__title")
+        $("div['.trans-products__advantages_title_2']")
                 .shouldHave(text(value));
 
         return this;
     }
     public TextBoxPage checkAboutDevelop(String value) {
-        $("section['.develop__first-section']")
-                .$(".develop__first-section__intro")
-                .$(".develop__first-section__intro__title").shouldHave(text(value));
+        $("section['.develop__second-section']")
+                .$(".develop__second-section__title").shouldHave(text(value));
 
         return this;
     }

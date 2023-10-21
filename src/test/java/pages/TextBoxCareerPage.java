@@ -14,7 +14,7 @@ public class TextBoxCareerPage {
             number = $("#form-contact-1").$("input[name='phone']"),
             telegram = $("#form-contact-1").$("input[name='telegram']"),
             setText = $("#form-contact-1").$("textarea[name='text']"),
-            formCareer = $("#form-contact-1").$(".career__form"),
+         //   formCareer = $("#form-contact-1").$(".career__form"),
             element = $("#productManager");
 
     public TextBoxCareerPage openPage() {
@@ -23,11 +23,11 @@ public class TextBoxCareerPage {
         return this;
     }
 
-    public TextBoxCareerPage onRussia() {
-        onRussia.click();
-
-        return this;
-    }
+//    public TextBoxCareerPage onRussia() {
+//        onRussia.click();
+//
+//        return this;
+//    }
 
     public TextBoxCareerPage aboutCareer() {
         aboutCareer.click();
