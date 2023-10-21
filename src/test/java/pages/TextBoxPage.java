@@ -1,4 +1,4 @@
-package first_tests.tests.pages;
+package pages;
 
 import com.codeborne.selenide.SelenideElement;
 
@@ -13,12 +13,7 @@ public class TextBoxPage {
             aboutDevelop = $(".header").$(byText("про разработку")),
             conferMeetups = $(".header").$(byText("конференции и митапы")),
             aboutCompany = $(".header").$(byText("о компании")),
-            aboutCareer = $(".header").$(byText("карьера")),
-            number = $("#form-contact-1").$("input[name='phone']"),
-            telegram = $("#form-contact-1").$("input[name='telegram']"),
-            setText = $("#form-contact-1").$("textarea[name='text']"),
-            formCareer = $("#form-contact-1").$(".career__form"),
-            element = $("#productManager");
+            aboutCareer = $(".header").$(byText("карьера"));
 
     public TextBoxPage openPage() {
 
@@ -61,30 +56,6 @@ public class TextBoxPage {
         return this;
     }
 
-    public TextBoxPage element() {
-        element.scrollTo();
-        return this;
-    }
-
-    public TextBoxPage setNumber(String value) {
-        number.doubleClick();
-        number.setValue(value);
-
-        return this;
-    }
-    public TextBoxPage setTelegram(String value) {
-        telegram.click();
-        telegram.setValue(value);
-
-        return this;
-    }
-    public TextBoxPage setTextCandidate(String value) {
-        setText.click();
-        setText.setValue(value);
-
-        return this;
-    }
-
     //Checks
     public TextBoxPage checkAboutProducts(String value) {
         $("li[name='clock']")
@@ -108,21 +79,6 @@ public class TextBoxPage {
     public TextBoxPage checkAboutCompany(String value) {
         $("ul['.about__first-section__achievements']").$("li[name='countries']")
                 .shouldHave(text(value));
-
-        return this;
-    }
-    public TextBoxPage checkTextOfNumberTest(String value) {
-        number.shouldHave(text(value));
-
-        return this;
-    }
-    public TextBoxPage checkTextOfTelegramTest(String value) {
-        telegram.shouldHave(text(value));
-
-        return this;
-    }
-    public TextBoxPage checkTextOfAboutEmployeeTest(String value) {
-        setText.shouldHave(text(value));
 
         return this;
     }

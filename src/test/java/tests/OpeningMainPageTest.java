@@ -1,18 +1,17 @@
-package first_tests.tests.tests;
+package tests;
 
-import first_tests.tests.pages.TextBoxPage;
+import pages.TextBoxPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
-public class CheckOpeningMainPages extends TestBase {
+public class OpeningMainPageTest extends TestBase {
     TextBoxPage datsTeamPage = new TextBoxPage();
 
     @Test
     @Tag("test_1")
     void checkPagesTest() {
-
         step( "Open pages", () -> {
             datsTeamPage.openPage()
                     .onRussia()

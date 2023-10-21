@@ -1,7 +1,7 @@
-package first_tests.tests.tests;
+package tests;
 
 import com.github.javafaker.Faker;
-import first_tests.tests.pages.TextBoxPage;
+import pages.TextBoxCareerPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -9,8 +9,8 @@ import java.util.Locale;
 
 import static io.qameta.allure.Allure.step;
 
-public class CheckFormOfCareer {
-    TextBoxPage fillFormOfCareer = new TextBoxPage();
+public class FormOfCareer {
+    TextBoxCareerPage fillFormOfCareer = new TextBoxCareerPage();
 
     @Test
     @Tag("test_2")
