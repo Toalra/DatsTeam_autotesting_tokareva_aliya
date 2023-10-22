@@ -24,17 +24,21 @@ public class FormOfCareer {
 
         step( "Open page and fill form of career", () -> {
             fillFormOfCareer.openPage()
-                   // .onRussia()
+                    //.onRussia()
                     .aboutCareer()
-                    .element()
-                    .setNumber(number)
-                    .setTelegram(telegram)
-                    .setTextCandidate(setText);
+                    .element();
+//                    .setNumber(number)
+//                    .setTelegram(telegram)
+//                    .setTextCandidate(setText);
         });
         step("Check form of Career", () -> {
-            fillFormOfCareer.checkTextOfNumberTest(number)
-                    .checkTextOfTelegramTest(telegram)
-                    .checkTextOfAboutEmployeeTest(setText);
+            fillFormOfCareer
+                    .checkFormContact("расскажите о себе")
+                    .checkVacancyOnHH("Эта вакансия на hh");
+                   // .checkCareerSubmit("Погнали!");
+//                    .checkTextOfNumberTest("Телефон")
+//                    .checkTextOfTelegramTest("Telegram или skype")
+//                    .checkTextOfAboutEmployeeTest("Расскажи про свой опыт и успехи, не забудь про FB и Instagram - всегда приятно иметь дело с настоящим собеседником.");
         });
 
     }

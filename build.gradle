@@ -30,8 +30,8 @@ dependencies {
     testImplementation (
             "org.junit.jupiter:junit-jupiter:5.10.0",
             "org.slf4j:slf4j-simple:2.0.8",
-            "io.github.bonigarcia:webdrivermanager:5.5.3",
-            "com.codeborne:selenide:6.17.1",
+            "io.github.bonigarcia:webdrivermanager:5.5.2",
+            "com.codeborne:selenide:6.16.1",
             "com.github.javafaker:javafaker:1.0.2",
             "io.qameta.allure:allure-selenide:$allureVersion"
     )
@@ -56,7 +56,7 @@ test {
 
 task first_test(type: Test) {
     useJUnitPlatform {
-        includeTags("test_1")
-        //includeTags("test_2")
+        //includeTags("test_1")
+        includeTags("test_2")
     }
 }

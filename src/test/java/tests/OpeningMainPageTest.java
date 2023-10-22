@@ -12,19 +12,19 @@ public class OpeningMainPageTest extends TestBase {
     @Test
     @Tag("test_1")
     void checkPagesTest() {
+
         step( "Open pages", () -> {
             datsTeamPage.openPage()
-                    //.onRussia()
+                    .onRussia()
                     .aboutProducts()
                     .aboutDevelop()
-                    .element_200()
                     .conferMeetups()
                     .aboutCompany();
         });
         step("Check pages", () -> {
-            datsTeamPage.checkAboutProducts("Здесь и сейчас")
-                    .checkAboutDevelop("200+ специалистов - среди которых")
-                    .checkAboutMeetups("Конференции и митапы")
+            datsTeamPage.checkAboutProducts("ПРО ПРОДУКТЫ")
+                    .checkAboutDevelop("ПРО РАЗРАБОТКУ")
+                    .checkAboutMeetups("КОНФЕРЕНЦИИ И МИТАПЫ")
                     .checkAboutCompany("32");
         });
     }
