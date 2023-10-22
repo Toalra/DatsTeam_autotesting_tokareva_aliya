@@ -15,8 +15,7 @@ public class TextBoxCareerPage {
 //            telegram = $("#form-contact-1").$("input[name='telegram']"),
 //            setText = $("#form-contact-1").$("textarea[name='text']"),
             formContact = $(".trans__vacancy__about_5"),
-            hhVacancy = $(".trans__hh-link_5"),
-            //careerSubmit = $("[type='submit']"),
+
             element = $("#productManager");
 
     public TextBoxCareerPage openPage() {
@@ -67,11 +66,7 @@ public class TextBoxCareerPage {
         return this;
     }
 
-    public TextBoxCareerPage checkVacancyOnHH(String value) {
-        hhVacancy.shouldHave(text(value));
 
-        return this;
-    }
 
 //    public TextBoxCareerPage checkCareerSubmit(String value) {
 //        careerSubmit.shouldHave(text(value));

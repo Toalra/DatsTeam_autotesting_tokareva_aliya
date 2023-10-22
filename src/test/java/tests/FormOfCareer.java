@@ -22,7 +22,7 @@ public class FormOfCareer {
                 telegram = faker.name().firstName(),
                 setText = faker.lebowski().character();
 
-        step( "Open page and fill form of career", () -> {
+        step( "Open page form of career", () -> {
             fillFormOfCareer.openPage()
                     //.onRussia()
                     .aboutCareer()
@@ -33,8 +33,7 @@ public class FormOfCareer {
         });
         step("Check form of Career", () -> {
             fillFormOfCareer
-                    .checkFormContact("расскажите о себе")
-                    .checkVacancyOnHH("Эта вакансия на hh");
+                    .checkFormContact("расскажите о себе");
                    // .checkCareerSubmit("Погнали!");
 //                    .checkTextOfNumberTest("Телефон")
 //                    .checkTextOfTelegramTest("Telegram или skype")

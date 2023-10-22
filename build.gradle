@@ -56,7 +56,8 @@ test {
 
 task first_test(type: Test) {
     useJUnitPlatform {
-        //includeTags("test_1")
+        includeTags("test_1")
         includeTags("test_2")
+        includeTags("test_3")
     }
 }
