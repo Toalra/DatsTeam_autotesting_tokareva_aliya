@@ -16,12 +16,14 @@ public class CareerOnHH {
     @Tag("test_3")
     void openPageOfCompanyOnHH(){
         step("Open page of company on hh.ru", () -> {
-            openPageOfCompanyOnHH.openPage()
+            openPageOfCompanyOnHH
+                    .openPage()
                     .hhVacancy();
         });
 
         step("Check page of company on hh.ru", () -> {
-            openPageOfCompanyOnHH.checkVacancyOnHH("DatsTeam");
+            openPageOfCompanyOnHH
+                    .checkVacancyOnHH("DatsTeam");
         });
     }
 }
