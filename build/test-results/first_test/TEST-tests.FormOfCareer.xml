@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.FormOfCareer" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-23T15:41:14" hostname="WIN-VNKFU8S8K4U" time="11.729">
+<testsuite name="tests.FormOfCareer" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-23T16:56:56" hostname="WIN-VNKFU8S8K4U" time="11.075">
   <properties/>
-  <testcase name="fillFormOfCareerTest()" classname="tests.FormOfCareer" time="11.729"/>
+  <testcase name="fillFormOfCareerTest()" classname="tests.FormOfCareer" time="11.075"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=100.0.4896.60 Platform=linux
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.16.1
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (3ac769831f87bb03bcf18aca5c0c3314)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on linux (3ac769831f87bb03bcf18aca5c0c3314),proxy=null,downloadsFolder=null] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on linux (6cf27a228d307b2b56c1635631a752f6)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on linux (6cf27a228d307b2b56c1635631a752f6),proxy=null,downloadsFolder=null] in 1 [size=1]
 ]]></system-err>
 </testsuite>
