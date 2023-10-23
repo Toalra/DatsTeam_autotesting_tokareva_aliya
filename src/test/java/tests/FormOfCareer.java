@@ -1,6 +1,5 @@
 package tests;
 
-import com.github.javafaker.Faker;
 import pages.TextBoxCareerPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
