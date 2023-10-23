@@ -1,0 +1,232 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+<title>Dats.Team | About</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="cataloxy-verification" content="dca132b526e4715=Hr@dats.team">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/frontend/css/styles.css">
+</head>
+<body>
+<section class="about__first-section">
+
+    <div class="cnt cnt--large">
+    <div class="header">
+        <a href="/">
+            <img class="header__logo" src="/frontend/img/logo.png" alt="DatsTeam">
+        </a>
+
+        <nav class="navbar navbar-header">
+            <div class="navbar__menu-mob">
+                <a href="/">
+                    <img class="navbar__menu-mob-logo" src="/frontend/img/logo-mob.svg" width="115" height="98" alt="DatsTeam">
+                </a>
+                <button type="button" class="navbar__menu-mob-hamburger">
+                    <img src="/frontend/img/close.svg" width="50" height="34" alt="">
+                </button>
+            </div>
+                        
+            <div class="navbar__links">
+                                    <a href="/products.html" class="navbar_item ">
+                        about products
+                    </a>
+                                    <a href="/develop.html" class="navbar_item ">
+                        about development
+                    </a>
+                                    <a href="https://dats.games/" class="navbar_item ">
+                        about games
+                    </a>
+                                    <a href="/conf-and-meetup.html" class="navbar_item ">
+                        conferences and meetups
+                    </a>
+                                    <a href="/career.html" class="navbar_item ">
+                        career
+                    </a>
+                                    <a href="/about.html" class="navbar_item  __active ">
+                        about the company
+                    </a>
+                
+                                
+                                                            <a href="/change-locale?language=ru" class="choose-locale navbar_item__icon">
+                            <img class="translate-icon-ru translate-icon show" src="/frontend/img/icons/translate-icon-ru.png" alt="translate-icon">
+                        </a>
+                                                    
+                            </div>
+            <div class="overlay"></div>
+        </nav>
+
+        <img src="/frontend/img/menu.svg" width="50" height="34" class="menu__hamburger" alt="">
+    </div>
+</div>
+
+    <div class="cnt">
+        <div class="about__first-section__intro">
+            <img src="/frontend/img/about/about__first-section__intro.png" class="about__first-section__intro__img" alt="intro">
+
+            <div class="about__first-section__intro__title trans-first__section_title">
+                 dats.team<br>company
+            </div>
+
+            <ul class="about__first-section__intro__desc">
+                <li class="trans-first__section_text_1">
+                    A group of companies that develops its own products: advertising and gaming platforms, mobile applications, payment solutions. The product development cluster has more than 300 developers of distributed teams in different cities and geos. Products cover a market with a vast geography.
+                </li>
+
+                <li class="trans-first__section_text_2">
+                    
+                </li>
+            </ul>
+        </div>
+
+        <ul class="about__first-section__achievements">
+            <li name="countries">
+                <h6>32</h6>
+                <p class="trans-first__section_achievements_1">
+                    countries
+                </p>
+            </li>
+            <li name="projects">
+                <h6>12</h6>
+                <p class="trans-first__section_achievements_2">
+                    projects
+                </p>
+            </li>
+            <li name="business">
+                <h6>4</h6>
+                <p class="trans-first__section_achievements_3">
+                    business-<br>areas
+                </p>
+            </li>
+            <li name="peoples">
+                <h6>2000</h6>
+                <p class="trans-first__section_achievements_4">
+                    employees
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="about__second-section">
+    <div class="cnt">
+        <div class="about__second-section__advantages">
+            <ul class="about__second-section__advantages__item">
+                <li name="idea" class="trans-second__section_advantages_1">
+                    Freedom and<br>responsibility
+                </li>
+                <li class="trans-second__section_advantages_2">
+                    Self-control and responsibility to the team
+                </li>
+                <li class="trans-second__section_advantages_3">
+                    Flexible working schedule within a 40-hour working week
+                </li>
+            </ul>
+            <ul class="about__second-section__advantages__item">
+                <li name="handles" class="trans-second__section_advantages_4">
+                    Openness<br>and humanity
+                </li>
+                <li class="trans-second__section_advantages_5">
+                    We appreciate individuality and personal contribution of each team member
+                </li>
+                <li class="trans-second__section_advantages_6">
+                    Be yourself, express yourself, try new approaches
+                </li>
+                <li class="trans-second__section_advantages_7">
+                    No imposed corporate culture in processes and thinking
+                </li>
+            </ul>
+        </div>
+
+        <div class="about__second-section__advantages">
+            <ul class="about__second-section__advantages__item">
+                <li name="endless-up" class="trans-second__section_advantages_8">
+                    Continuous<br>development
+                </li>
+                <li class="trans-second__section_advantages_9">
+                    Individual approach to motivation – we see the potential and help to reach it
+                </li>
+                <li class="trans-second__section_advantages_10">
+                    Non-routine tasks and innovative work philosophy
+                </li>
+                <li class="trans-second__section_advantages_11">
+                    Growing projects, a cluster of successful startups in Advertising, Affiliate marketing, Mobile
+                </li>
+            </ul>
+            <ul class="about__second-section__advantages__item">
+                <li name="portfolio" class="trans-second__section_advantages_12">
+                    Team and<br>professionalism
+                </li>
+                <li class="trans-second__section_advantages_13">
+                    We appreciate teamwork and real-live communication, joint training and teambuilding
+                </li>
+                <li class="trans-second__section_advantages_14">
+                    Level up your abilities with the team of professionals, learn from the profs
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="about__third-section">
+    <div class="cnt">
+        <div class="about__third-section__title trans-third__section_title">
+            what we<br>can offer:
+        </div>
+
+        <img src="/frontend/img/about/about__third-section__intro.png" alt="picture" class="about__third-section__img">
+
+        <ul class="about__third-section__advantages">
+            <li class="trans-third__section_advantages_1">
+                Great team of professionals
+            </li>
+            <li class="trans-third__section_advantages_2">
+                Internal meetups and external top conferences
+            </li>
+            <li class="trans-third__section_advantages_3">
+                Professional growth – a grading system with yearly revision upon Performance review
+            </li>
+            <li class="trans-third__section_advantages_4">
+                Competitive payment – the salary is consistent with the current market
+            </li>
+            <li class="trans-third__section_advantages_5">
+                Friendly colleagues and various teambuilding activities
+            </li>
+            <li class="trans-third__section_advantages_6">
+                A summer terrace overlooking the Moscow River, barbecue parties, ping-pong tournaments, Friday pizza parties and much more
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <div class="cnt">
+        <div class="footer">
+    <nav class="navbar navbar-footer">
+        <a href="/products.html" class="navbar_item trans-footer__menu_1">
+            about products
+        </a>
+        <a href="/develop.html" class="navbar_item trans-footer__menu_2">
+            about development
+        </a>
+        <a href="/conf-and-meetup.html" class="navbar_item trans-footer__menu_3">
+            conferences and meetups
+        </a>
+        <a href="/career.html" class="navbar_item trans-footer__menu_4">
+            career
+        </a>
+        <a href="/about.html" class="navbar_item trans-footer__menu_5">
+            about the company
+        </a>
+    </nav>
+
+    <a href="/">
+        <img class="header__logo" src="/frontend/img/logo__turbid.png" alt="DatsTeam">
+    </a>
+</div>
+    </div>
+</section>
+
+<script src="/frontend/js/script.js"></script>
+
+
+</body></html>

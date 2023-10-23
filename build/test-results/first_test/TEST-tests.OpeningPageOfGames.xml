@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.OpeningPageOfGames" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-23T15:41:26" hostname="WIN-VNKFU8S8K4U" time="2.807">
+  <properties/>
+  <testcase name="openPageOfGame()" classname="tests.OpeningPageOfGames" time="2.807"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> RemoteWebDriver: chrome on linux (3ac769831f87bb03bcf18aca5c0c3314)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 165 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on linux (null),proxy=null,downloadsFolder=null] in 1 [size=0]
+]]></system-err>
+</testsuite>
