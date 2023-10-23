@@ -1,11 +1,9 @@
 package tests;
 
-import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.TextBoxCareerHH;
 
-import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.logevents.SelenideLogger.step;
 
 public class CareerOnHH {
@@ -18,12 +16,14 @@ public class CareerOnHH {
         step("Open page of company on hh.ru", () -> {
             openPageOfCompanyOnHH
                     .openPage()
-                    .hhVacancy();
+                    .onRussia()
+                    .aboutCareer()
+                    .elementPage();
         });
 
         step("Check page of company on hh.ru", () -> {
             openPageOfCompanyOnHH
-                    .checkVacancyOnHH("DatsTeam");
+                    .checkVacancyOnHH("Эта вакансия на hh");
         });
     }
 }

@@ -59,5 +59,6 @@ task first_test(type: Test) {
         includeTags("test_1")
         includeTags("test_2")
         includeTags("test_3")
+        includeTags("test_4")
     }
 }

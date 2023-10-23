@@ -3,28 +3,41 @@ package pages;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class TextBoxCareerHH {
+
     SelenideElement
-            hhVacancy = $(".trans__hh-link_5"),
-            headTitle = $(".bloko-header-1");
+            onRussia = $(".choose-locale"),
+            aboutCareer = $("a[href='/career.html']"),
+            elementPage = $("#productManager"),
+            hhVacancy = $(".trans__hh-link_5");
 
     public TextBoxCareerHH openPage() {
-
         open("https://dats.team");
+
+        return this;
+    }
+    public TextBoxCareerHH onRussia() {
+        onRussia.click();
+
         return this;
     }
 
-    public TextBoxCareerHH hhVacancy() {
-        hhVacancy.click();
+    public TextBoxCareerHH aboutCareer() {
+        aboutCareer.click();
+
+        return this;
+    }
+
+    public TextBoxCareerHH elementPage() {
+        elementPage.scrollTo();
 
         return this;
     }
 
     public TextBoxCareerHH checkVacancyOnHH(String value) {
-        headTitle.shouldHave(text(value));
+        hhVacancy.shouldHave(text(value));
 
         return this;
     }
