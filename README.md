@@ -91,7 +91,7 @@ java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifica
 <a href=""><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/AllureReport.png" wight="500" height="500"/></a>
 
 <h3>Результат выполнения теста</h3>
-<a title="allureResults"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/allureResults.png" wight=800" height="390"/></a>
+<a title="allureResults"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/allureReport.png" wight=800" height="390"/></a>
 <h2><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/AllureTestOps.svg" wight="30" height="30"/><a>Интеграция с </a>
   <a href="https://allure.autotests.cloud/launch/30429/tree/485930?treeId=0">Allure TestOps </a></h2>
 
