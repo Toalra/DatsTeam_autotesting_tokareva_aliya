@@ -88,10 +88,10 @@ java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifica
 <a title="jenkinsReport"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/jenkinsReport.png" wight="500" height="500"/></a>
 <h3><a>Overwies в </a>
 <a href="https://jenkins.autotests.cloud/job/dats.team_autotesting_tokareva_aliya/43/allure/">Allure Report</a></h3>
-<a href=""><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/AllureReport.png" wight="500" height="500"/></a>
+<a href=""><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/resultAllure.png" wight="500" height="450"/></a>
 
 <h3>Результат выполнения теста</h3>
-<a title="allureResults"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/allureReport.png" wight=800" height="390"/></a>
+<a title="allureResults"><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/results/allureReport.png" wight=800" height="300"/></a>
 <h2><img  src="https://github.com/Toalra/DatsTeam_autotesting_tokareva_aliya/blob/master/media/logs/AllureTestOps.svg" wight="30" height="30"/><a>Интеграция с </a>
   <a href="https://allure.autotests.cloud/launch/30429/tree/485930?treeId=0">Allure TestOps </a></h2>
 
