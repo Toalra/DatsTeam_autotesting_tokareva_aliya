@@ -6,7 +6,7 @@ import pages.TextBoxCareerHH;
 
 import static com.codeborne.selenide.logevents.SelenideLogger.step;
 
-public class CareerOnHH {
+public class CareerOnHH extends TestBase {
 
     TextBoxCareerHH openPageOfCompanyOnHH = new TextBoxCareerHH();
 

@@ -6,7 +6,7 @@ import pages.TextBoxGames;
 
 import static io.qameta.allure.Allure.step;
 
-public class OpeningPageOfGames {
+public class OpeningPageOfGames extends TestBase {
 
     TextBoxGames openPageOfGame = new TextBoxGames();
 
