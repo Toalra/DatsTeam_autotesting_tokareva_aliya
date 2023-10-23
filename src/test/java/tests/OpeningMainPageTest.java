@@ -15,7 +15,7 @@ public class OpeningMainPageTest extends TestBase {
 
         step( "Open pages", () -> {
             datsTeamPage.openPage()
-                    .onRussia()
+                  //  .onRussia()
                     .aboutProducts()
                     .aboutDevelop()
                     .conferMeetups()

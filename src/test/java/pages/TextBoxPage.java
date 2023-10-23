@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class TextBoxPage {
     SelenideElement
-            onRussia = $(".choose-locale"),
+//            onRussia = $(".choose-locale"),
             aboutProducts = $("a[href='/products.html']"),
             aboutDevelop = $("a[href='/develop.html']"),
             conferMeetups = $("a[href='/conf-and-meetup.html']"),
@@ -19,11 +19,11 @@ public class TextBoxPage {
         return this;
     }
 
-    public TextBoxPage onRussia() {
-        onRussia.click();
-
-        return this;
-    }
+//    public TextBoxPage onRussia() {
+//        onRussia.click();
+//
+//        return this;
+//    }
 
     public TextBoxPage aboutProducts() {
         aboutProducts.click();
